@@ -386,7 +386,7 @@ const translations = {
             "Ensalada de mollejas de pato",
 
         gizzard_description:
-            "Ensalada verde, mollejas de pato, picatostes, tomate cherry, cebolla roja, nueces y vinagreta de mostaza a la antigua.",
+            "Ensalada verde, mollejas de pato, picatostes, tomate cherry, cebolla, nueces y vinagreta de mostaza a la antigua.",
 
         salmon_bagel_name:
             "Bagel de salmón ahumado",
@@ -398,7 +398,7 @@ const translations = {
             "Ensalada César",
 
         caesar_starter_description:
-            "Ensalada, tomate cherry, pollo empanado, picatostes, cebolla crujiente, virutas de parmesano y salsa César.",
+            "Ensalada, tomate cherry, pollo empanado, picatostes, cebolla, virutas de parmesano y salsa César.",
 
 
         charcuterie:
@@ -433,7 +433,7 @@ const translations = {
             "Ensalada César",
 
         caesar_main_description:
-            "Ensalada, tomate cherry, pollo empanado, cebolla crujiente, picatostes y virutas de parmesano.",
+            "Ensalada, tomate cherry, pollo empanado, cebolla, picatostes y virutas de parmesano.",
 
         burger_name:
             "Hamburguesa del Chef",
@@ -448,7 +448,7 @@ const translations = {
             "Salsa tártara.",
 
         butcher_name:
-            "Pieza del carnicero",
+            "Corte del carnicero",
 
         butcher_description:
             "Según disponibilidad.",
