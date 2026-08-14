@@ -73,612 +73,999 @@
 
         </div>
 
+
+        <!-- ======================================
+             ONGLETS CARTE / BOISSONS
+        ======================================= -->
+
+        <nav class="menu-tabs">
+
+            <button
+                class="menu-tab active"
+                data-tab="food"
+                type="button"
+            >
+                <span data-i18n="tab_food">
+                    Carte
+                </span>
+            </button>
+
+            <button
+                class="menu-tab"
+                data-tab="drinks"
+                type="button"
+            >
+                <span data-i18n="tab_drinks">
+                    Boissons
+                </span>
+            </button>
+
+        </nav>
+
     </header>
 
 
     <!-- ==========================================
-         MENU
+         CONTENU PRINCIPAL
     ========================================== -->
 
     <main class="menu-container">
 
 
         <!-- ======================================
-             ENTRÉES
+             ONGLET CARTE
         ======================================= -->
 
-        <section class="menu-section">
+        <div
+            id="food-content"
+            class="tab-content active"
+        >
 
-            <h2 data-i18n="starters">
-                Entrées
-            </h2>
+
+            <!-- ==================================
+                 ENTRÉES
+            =================================== -->
+
+            <section class="menu-section">
+
+                <h2 data-i18n="starters">
+                    Entrées
+                </h2>
 
 
-            <!-- SALADE DE GÉSIERS -->
+                <!-- SALADE DE GÉSIERS -->
 
-            <article class="menu-item">
+                <article class="menu-item">
 
-                <div class="item-header">
+                    <div class="item-header">
 
-                    <h3 data-i18n="gizzard_name">
-                        Salade de gésiers
+                        <h3 data-i18n="gizzard_name">
+                            Salade de gésiers
+                        </h3>
+
+                        <span class="price">
+                            12,90 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="gizzard_description">
+                        Salade verte, gésiers de canard,
+                        croûtons, tomate cerise, oignon rouge,
+                        noix, vinaigrette à la moutarde
+                        à l'ancienne.
+                    </p>
+
+                </article>
+
+
+                <!-- BAGEL DE SAUMON -->
+
+                <article class="menu-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="salmon_bagel_name">
+                            Bagel de saumon fumé
+                        </h3>
+
+                        <span class="price">
+                            12,90 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="salmon_bagel_description">
+                        Pain en forme de bagel, saumon fumé,
+                        salade, tomate, fromage frais aux fines
+                        herbes, concombre.
+                    </p>
+
+                </article>
+
+
+                <!-- SALADE CÉSAR -->
+
+                <article class="menu-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="caesar_starter_name">
+                            Salade César
+                        </h3>
+
+                        <span class="price">
+                            12,90 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="caesar_starter_description">
+                        Salade, tomate cerise, poulet pané,
+                        croûtons, oignon crispy,
+                        copeaux de parmesan, sauce César.
+                    </p>
+
+                </article>
+
+            </section>
+
+
+            <!-- ==================================
+                 PLANCHE DE CHARCUTERIE
+            =================================== -->
+
+            <section class="menu-section">
+
+                <h2 data-i18n="charcuterie">
+                    Planche de charcuterie
+                </h2>
+
+                <article class="menu-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="charcuterie_name">
+                            Planche à partager
+                        </h3>
+
+                        <span class="price">
+                            14,00 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="charcuterie_description">
+                        Jambon de Bayonne, rosette, coppa,
+                        pâté de campagne, cornichons, chorizo,
+                        fromage et pain tranché.
+                    </p>
+
+                </article>
+
+            </section>
+
+
+            <!-- ==================================
+                 PLATS
+            =================================== -->
+
+            <section class="menu-section">
+
+                <h2 data-i18n="main_courses">
+                    Plats
+                </h2>
+
+
+                <!-- CONFIT -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="duck_confit_name">
+                            Confit de canard
+                        </h3>
+
+                        <span class="price">
+                            15,00 €
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MAGRET ENTIER -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="whole_duck_breast_name">
+                            Magret de canard entier
+                        </h3>
+
+                        <span class="price">
+                            25,00 €
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DEMI MAGRET -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="half_duck_breast_name">
+                            Demi magret de canard
+                        </h3>
+
+                        <span class="price">
+                            16,00 €
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SAUMON -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="salmon_name">
+                            Pavé de saumon
+                        </h3>
+
+                        <span class="price">
+                            15,00 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="salmon_description">
+                        Sauce échalote citronnée.
+                    </p>
+
+                </article>
+
+
+                <!-- SALADE CÉSAR -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="caesar_main_name">
+                            Salade César
+                        </h3>
+
+                        <span class="price">
+                            15,90 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="caesar_main_description">
+                        Salade, tomate cerise, poulet pané,
+                        oignons crispy, croûtons,
+                        copeaux de parmesan.
+                    </p>
+
+                </article>
+
+
+                <!-- HAMBURGER -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="burger_name">
+                            Hamburger du Chef
+                        </h3>
+
+                        <span class="price">
+                            14,90 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="burger_description">
+                        Pain aux graines de sésame, salade,
+                        tomate, compotée d'oignons,
+                        tranche de bacon, emmental,
+                        steak haché de bœuf, sauce barbecue.
+                    </p>
+
+                </article>
+
+
+                <!-- FISH & CHIPS -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="fish_chips_name">
+                            Fish &amp; Chips
+                        </h3>
+
+                        <span class="price">
+                            14,90 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="fish_chips_description">
+                        Sauce tartare.
+                    </p>
+
+                </article>
+
+
+                <!-- PIÈCE DU BOUCHER -->
+
+                <article class="menu-item bullet-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="butcher_name">
+                            Pièce du boucher
+                        </h3>
+
+                        <span class="price">
+                            —
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="butcher_description">
+                        En fonction de l'arrivage.
+                    </p>
+
+                </article>
+
+
+                <!-- ACCOMPAGNEMENTS -->
+
+                <div class="accompaniments">
+
+                    <h3 data-i18n="sides_title">
+                        Accompagnements au choix
                     </h3>
 
-                    <span class="price">
-                        12,90 €
+                    <p>
+
+                        <span data-i18n="side_fries">
+                            Frites
+                        </span>
+
+                        •
+
+                        <span data-i18n="side_tagliatelle">
+                            Tagliatelles
+                        </span>
+
+                        •
+
+                        <span data-i18n="side_rice">
+                            Riz
+                        </span>
+
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==================================
+                 MENU ENFANT
+            =================================== -->
+
+            <section class="menu-section">
+
+                <h2 data-i18n="children_menu_title">
+                    Menu Enfant
+                </h2>
+
+                <div class="special-box children-menu">
+
+                    <div class="children-price">
+                        10 €
+                    </div>
+
+
+                    <ul>
+
+                        <li data-i18n="children_steak">
+                            Steak haché
+                        </li>
+
+                        <li data-i18n="children_tenders">
+                            Tenders
+                        </li>
+
+                        <li data-i18n="children_fish">
+                            Fish &amp; Chips
+                        </li>
+
+                    </ul>
+
+
+                    <h3 data-i18n="children_side_title">
+                        Accompagnement au choix
+                    </h3>
+
+                    <p data-i18n="children_side_description">
+                        Frites, tagliatelles ou riz
+                    </p>
+
+
+                    <h3 data-i18n="children_drink_title">
+                        + 1 boisson au choix
+                    </h3>
+
+                    <p data-i18n="children_drink_description">
+                        1 sirop au choix : grenadine,
+                        menthe, pêche, etc. ou Caprisun
+                    </p>
+
+
+                    <h3 data-i18n="children_icecream_title">
+                        + 1 boule de glace
+                    </h3>
+
+                    <p data-i18n="children_icecream_description">
+                        Parfum au choix
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==================================
+                 SUPPLÉMENTS
+            =================================== -->
+
+            <section class="menu-section">
+
+                <h2 data-i18n="supplements_title">
+                    Suppléments
+                </h2>
+
+                <div class="supplements">
+
+
+                    <div class="supplement-row">
+
+                        <span data-i18n="extra_sauce">
+                            Sauce supplémentaire
+                        </span>
+
+                        <span class="supplement-price">
+                            1,50 €
+                        </span>
+
+                    </div>
+
+
+                    <div class="supplement-row">
+
+                        <span data-i18n="extra_fries">
+                            Portion de frites
+                        </span>
+
+                        <span class="supplement-price">
+                            2,00 €
+                        </span>
+
+                    </div>
+
+
+                    <div class="supplement-row">
+
+                        <span data-i18n="extra_rice">
+                            Riz
+                        </span>
+
+                        <span class="supplement-price">
+                            2,50 €
+                        </span>
+
+                    </div>
+
+
+                    <div class="supplement-row">
+
+                        <span data-i18n="extra_tagliatelle">
+                            Tagliatelles
+                        </span>
+
+                        <span class="supplement-price">
+                            2,50 €
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==================================
+                 DESSERTS
+            =================================== -->
+
+            <section class="menu-section">
+
+                <h2 data-i18n="desserts">
+                    Desserts
+                </h2>
+
+                <article class="menu-item">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="dessert_name">
+                            Dessert au choix
+                        </h3>
+
+                    </div>
+
+                    <p data-i18n="dessert_description">
+                        En fonction de l'arrivage.
+                    </p>
+
+                </article>
+
+            </section>
+
+
+            <!-- ==================================
+                 GLACES
+            =================================== -->
+
+            <section class="menu-section ice-cream-section">
+
+                <h2 data-i18n="ice_creams">
+                    Glaces
+                </h2>
+
+
+                <div class="ice-cream-row">
+
+                    <span
+                        class="ice-cream-name"
+                        data-i18n="one_scoop"
+                    >
+                        1 boule
+                    </span>
+
+                    <span class="ice-cream-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-                <p data-i18n="gizzard_description">
-                    Salade verte, gésiers de canard, croûtons,
-                    tomate cerise, oignon rouge, noix,
-                    vinaigrette à la moutarde à l'ancienne.
-                </p>
 
-            </article>
+                <div class="ice-cream-row">
 
+                    <span
+                        class="ice-cream-name"
+                        data-i18n="two_scoops"
+                    >
+                        2 boules
+                    </span>
 
-            <!-- BAGEL -->
-
-            <article class="menu-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="salmon_bagel_name">
-                        Bagel de saumon fumé
-                    </h3>
-
-                    <span class="price">
-                        12,90 €
+                    <span class="ice-cream-price">
+                        4,50 €
                     </span>
 
                 </div>
 
-                <p data-i18n="salmon_bagel_description">
-                    Pain en forme de bagel, saumon fumé,
-                    salade, tomate, fromage frais aux fines herbes,
-                    concombre.
-                </p>
 
-            </article>
+                <article class="menu-item ice-cream-sundae">
+
+                    <div class="item-header">
+
+                        <h3 data-i18n="icecream_cup">
+                            Coupe glacée
+                        </h3>
+
+                        <span class="price">
+                            7,90 €
+                        </span>
+
+                    </div>
+
+                    <p data-i18n="icecream_cup_description">
+                        3 boules + chantilly + sirop
+                    </p>
+
+                </article>
 
 
-            <!-- SALADE CÉSAR -->
+                <div class="ice-cream-row">
 
-            <article class="menu-item">
+                    <span
+                        class="ice-cream-name"
+                        data-i18n="extra_whipped_cream"
+                    >
+                        Supplément chantilly
+                    </span>
 
-                <div class="item-header">
-
-                    <h3 data-i18n="caesar_starter_name">
-                        Salade César
-                    </h3>
-
-                    <span class="price">
-                        12,90 €
+                    <span class="ice-cream-price">
+                        0,50 €
                     </span>
 
                 </div>
 
-                <p data-i18n="caesar_starter_description">
-                    Salade, tomate cerise, poulet pané,
-                    croûtons, oignon crispy, copeaux de parmesan,
-                    sauce César.
-                </p>
+            </section>
 
-            </article>
-
-        </section>
+        </div>
 
 
         <!-- ======================================
-             PLANCHE DE CHARCUTERIE
+             ONGLET BOISSONS
         ======================================= -->
 
-        <section class="menu-section">
+        <div
+            id="drinks-content"
+            class="tab-content"
+        >
 
-            <h2 data-i18n="charcuterie">
-                Planche de charcuterie
-            </h2>
 
-            <article class="menu-item">
+            <!-- ==================================
+                 SOFTS
+            =================================== -->
 
-                <div class="item-header">
+            <section class="menu-section drinks-section">
 
-                    <h3 data-i18n="charcuterie_name">
-                        Planche à partager
-                    </h3>
+                <h2 data-i18n="softs_title">
+                    Softs
+                </h2>
 
-                    <span class="price">
-                        14,00 €
+
+                <div class="drink-row">
+
+                    <span>
+                        Coca-Cola
+                    </span>
+
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-                <p data-i18n="charcuterie_description">
-                    Jambon de Bayonne, rosette, coppa,
-                    pâté de campagne, cornichons, chorizo,
-                    fromage et pain tranché.
-                </p>
 
-            </article>
+                <div class="drink-row">
 
-        </section>
+                    <span data-i18n="coca_zero">
+                        Coca-Cola Sans Sucre
+                    </span>
 
-
-        <!-- ======================================
-             PLATS
-        ======================================= -->
-
-        <section class="menu-section">
-
-            <h2 data-i18n="main_courses">
-                Plats
-            </h2>
-
-
-            <!-- CONFIT -->
-
-            <article class="menu-item bullet-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="duck_confit_name">
-                        Confit de canard
-                    </h3>
-
-                    <span class="price">
-                        15,00 €
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-            </article>
 
+                <div class="drink-row">
 
-            <!-- MAGRET ENTIER -->
+                    <span>
+                        Orangina
+                    </span>
 
-            <article class="menu-item bullet-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="whole_duck_breast_name">
-                        Magret de canard entier
-                    </h3>
-
-                    <span class="price">
-                        25,00 €
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-            </article>
 
+                <div class="drink-row">
 
-            <!-- DEMI MAGRET -->
+                    <span data-i18n="schweppes_citrus">
+                        Schweppes Agrumes
+                    </span>
 
-            <article class="menu-item bullet-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="half_duck_breast_name">
-                        Demi magret de canard
-                    </h3>
-
-                    <span class="price">
-                        16,00 €
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-            </article>
 
+                <div class="drink-row">
 
-            <!-- SAUMON -->
+                    <span data-i18n="ice_tea_peach">
+                        Lipton Ice Tea Pêche
+                    </span>
 
-            <article class="menu-item bullet-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="salmon_name">
-                        Pavé de saumon
-                    </h3>
-
-                    <span class="price">
-                        15,00 €
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-                <p data-i18n="salmon_description">
-                    Sauce échalote citronnée.
-                </p>
 
-            </article>
+                <div class="drink-row">
 
+                    <span>
+                        Oasis Tropical
+                    </span>
 
-            <!-- SALADE CÉSAR -->
-
-            <article class="menu-item bullet-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="caesar_main_name">
-                        Salade César
-                    </h3>
-
-                    <span class="price">
-                        15,90 €
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-                <p data-i18n="caesar_main_description">
-                    Salade, tomate cerise, poulet pané,
-                    oignons crispy, croûtons,
-                    copeaux de parmesan.
-                </p>
 
-            </article>
+                <div class="drink-row">
 
+                    <span>
+                        Perrier 33 cl
+                    </span>
 
-            <!-- HAMBURGER -->
-
-            <article class="menu-item bullet-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="burger_name">
-                        Hamburger du Chef
-                    </h3>
-
-                    <span class="price">
-                        14,90 €
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-                <p data-i18n="burger_description">
-                    Pain aux graines de sésame, salade, tomate,
-                    compotée d'oignons, tranche de bacon,
-                    emmental, steak haché de bœuf,
-                    sauce barbecue.
-                </p>
-
-            </article>
+            </section>
 
 
-            <!-- FISH & CHIPS -->
+            <!-- ==================================
+                 EAUX
+            =================================== -->
 
-            <article class="menu-item bullet-item">
+            <section class="menu-section drinks-section">
 
-                <div class="item-header">
-
-                    <h3 data-i18n="fish_chips_name">
-                        Fish & Chips
-                    </h3>
-
-                    <span class="price">
-                        14,90 €
-                    </span>
-
-                </div>
-
-                <p data-i18n="fish_chips_description">
-                    Sauce tartare.
-                </p>
-
-            </article>
+                <h2 data-i18n="waters_title">
+                    Eaux
+                </h2>
 
 
-            <!-- PIÈCE DU BOUCHER -->
-
-            <article class="menu-item bullet-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="butcher_name">
-                        Pièce du boucher
-                    </h3>
-
-                    <span class="price">
-                        —
-                    </span>
-
-                </div>
-
-                <p data-i18n="butcher_description">
-                    En fonction de l'arrivage.
-                </p>
-
-            </article>
-
-
-            <!-- ACCOMPAGNEMENTS -->
-
-            <div class="accompaniments">
-
-                <h3 data-i18n="sides_title">
-                    Accompagnements au choix
+                <h3
+                    class="drink-category"
+                    data-i18n="still_water"
+                >
+                    Plates
                 </h3>
 
-                <p>
 
-                    <span data-i18n="side_fries">
-                        Frites
+                <div class="drink-row">
+
+                    <span>
+                        Cristaline 50 cl
                     </span>
 
-                    •
-
-                    <span data-i18n="side_tagliatelle">
-                        Tagliatelles
-                    </span>
-
-                    •
-
-                    <span data-i18n="side_rice">
-                        Riz
-                    </span>
-
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- ======================================
-             MENU ENFANT
-        ======================================= -->
-
-        <section class="menu-section">
-
-            <h2 data-i18n="children_menu_title">
-                Menu Enfant
-            </h2>
-
-            <div class="special-box children-menu">
-
-                <div class="children-price">
-                    10 €
-                </div>
-
-
-                <ul>
-
-                    <li data-i18n="children_steak">
-                        Steak haché
-                    </li>
-
-                    <li data-i18n="children_tenders">
-                        Tenders
-                    </li>
-
-                    <li data-i18n="children_fish">
-                        Fish & Chips
-                    </li>
-
-                </ul>
-
-
-                <h3 data-i18n="children_side_title">
-                    Accompagnement au choix
-                </h3>
-
-                <p data-i18n="children_side_description">
-                    Frites, tagliatelles ou riz
-                </p>
-
-
-                <h3 data-i18n="children_drink_title">
-                    + 1 boisson au choix
-                </h3>
-
-                <p data-i18n="children_drink_description">
-                    1 sirop au choix : grenadine, menthe,
-                    pêche, etc. ou Caprisun
-                </p>
-
-
-                <h3 data-i18n="children_icecream_title">
-                    + 1 boule de glace
-                </h3>
-
-                <p data-i18n="children_icecream_description">
-                    Parfum au choix
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- ======================================
-             SUPPLÉMENTS
-        ======================================= -->
-
-        <section class="menu-section">
-
-            <h2 data-i18n="supplements_title">
-                Suppléments
-            </h2>
-
-            <div class="supplements">
-
-
-                <div class="supplement-row">
-
-                    <span data-i18n="extra_sauce">
-                        Sauce supplémentaire
-                    </span>
-
-                    <span class="supplement-price">
-                        1,50 €
-                    </span>
-
-                </div>
-
-
-                <div class="supplement-row">
-
-                    <span data-i18n="extra_fries">
-                        Portion de frites
-                    </span>
-
-                    <span class="supplement-price">
+                    <span class="drink-price">
                         2,00 €
                     </span>
 
                 </div>
 
 
-                <div class="supplement-row">
+                <div class="drink-row">
 
-                    <span data-i18n="extra_rice">
-                        Riz
+                    <span>
+                        Cristaline 1 L
                     </span>
 
-                    <span class="supplement-price">
-                        2,50 €
-                    </span>
-
-                </div>
-
-
-                <div class="supplement-row">
-
-                    <span data-i18n="extra_tagliatelle">
-                        Tagliatelles
-                    </span>
-
-                    <span class="supplement-price">
-                        2,50 €
+                    <span class="drink-price">
+                        4,00 €
                     </span>
 
                 </div>
 
-            </div>
 
-        </section>
-
-
-        <!-- ======================================
-             DESSERTS
-        ======================================= -->
-
-        <section class="menu-section">
-
-            <h2 data-i18n="desserts">
-                Desserts
-            </h2>
-
-            <article class="menu-item">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="dessert_name">
-                        Dessert au choix
-                    </h3>
-
-                </div>
-
-                <p data-i18n="dessert_description">
-                    En fonction de l'arrivage.
-                </p>
-
-            </article>
-
-        </section>
-
-
-        <!-- ======================================
-             GLACES
-        ======================================= -->
-
-        <section class="menu-section ice-cream-section">
-
-            <h2 data-i18n="ice_creams">
-                Glaces
-            </h2>
-
-
-            <!-- 1 BOULE -->
-
-            <div class="ice-cream-row">
-
-                <span
-                    class="ice-cream-name"
-                    data-i18n="one_scoop"
+                <h3
+                    class="drink-category"
+                    data-i18n="sparkling_water"
                 >
-                    1 boule
-                </span>
-
-                <span class="ice-cream-price">
-                    3,00 €
-                </span>
-
-            </div>
+                    Gazeuses
+                </h3>
 
 
-            <!-- 2 BOULES -->
+                <div class="drink-row">
 
-            <div class="ice-cream-row">
+                    <span data-i18n="perrier_lemon">
+                        Perrier Citron 50 cl
+                    </span>
 
-                <span
-                    class="ice-cream-name"
-                    data-i18n="two_scoops"
-                >
-                    2 boules
-                </span>
-
-                <span class="ice-cream-price">
-                    4,50 €
-                </span>
-
-            </div>
-
-
-            <!-- COUPE GLACÉE -->
-
-            <article class="menu-item ice-cream-sundae">
-
-                <div class="item-header">
-
-                    <h3 data-i18n="icecream_cup">
-                        Coupe glacée
-                    </h3>
-
-                    <span class="price">
-                        7,90 €
+                    <span class="drink-price">
+                        3,00 €
                     </span>
 
                 </div>
 
-                <p data-i18n="icecream_cup_description">
-                    3 boules + chantilly + sirop
-                </p>
 
-            </article>
+                <div class="drink-row">
+
+                    <span data-i18n="perrier_lime">
+                        Perrier Citron Vert 50 cl
+                    </span>
+
+                    <span class="drink-price">
+                        3,00 €
+                    </span>
+
+                </div>
 
 
-            <!-- SUPPLÉMENT CHANTILLY -->
+                <div class="drink-row">
 
-            <div class="ice-cream-row">
+                    <span>
+                        San Pellegrino 50 cl
+                    </span>
 
-                <span
-                    class="ice-cream-name"
-                    data-i18n="extra_whipped_cream"
-                >
-                    Supplément chantilly
-                </span>
+                    <span class="drink-price">
+                        3,00 €
+                    </span>
 
-                <span class="ice-cream-price">
-                    0,50 €
-                </span>
+                </div>
 
-            </div>
 
-        </section>
+                <div class="drink-row">
+
+                    <span>
+                        San Pellegrino 1 L
+                    </span>
+
+                    <span class="drink-price">
+                        5,00 €
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==================================
+                 BIÈRES BOUTEILLE
+            =================================== -->
+
+            <section class="menu-section drinks-section">
+
+                <h2 data-i18n="bottled_beers">
+                    Bières bouteille
+                </h2>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        1664 Blonde 25 cl
+                    </span>
+
+                    <span class="drink-price">
+                        3,00 €
+                    </span>
+
+                </div>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        Heineken 25 cl
+                    </span>
+
+                    <span class="drink-price">
+                        3,00 €
+                    </span>
+
+                </div>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        Affligem Blonde 25 cl
+                    </span>
+
+                    <span class="drink-price">
+                        3,00 €
+                    </span>
+
+                </div>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        Desperados 25 cl
+                    </span>
+
+                    <span class="drink-price">
+                        3,50 €
+                    </span>
+
+                </div>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        Desperados 33 cl
+                    </span>
+
+                    <span class="drink-price">
+                        4,50 €
+                    </span>
+
+                </div>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        Flying Fish 33 cl
+                    </span>
+
+                    <span class="drink-price">
+                        4,50 €
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==================================
+                 BIÈRES PRESSION
+            =================================== -->
+
+            <section class="menu-section drinks-section">
+
+                <h2 data-i18n="draft_beers">
+                    Bières pression
+                </h2>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        Pelforth Blonde 25 cl
+                    </span>
+
+                    <span class="drink-price">
+                        3,00 €
+                    </span>
+
+                </div>
+
+
+                <div class="drink-row">
+
+                    <span>
+                        Desperados Sunlight 25 cl
+                    </span>
+
+                    <span class="drink-price">
+                        4,50 €
+                    </span>
+
+                </div>
+
+            </section>
+
+        </div>
 
     </main>
 
