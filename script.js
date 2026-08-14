@@ -6,32 +6,46 @@ const translations = {
 
     fr: {
 
-        restaurant: "Restaurant • Bar • Lourdes",
+        restaurant:
+            "Restaurant • Bar • Lourdes",
 
-        starters: "Entrées",
+        starters:
+            "Entrées",
 
-        gizzard_name: "Salade de gésiers",
+        gizzard_name:
+            "Salade de gésiers",
+
         gizzard_description:
             "Salade verte, gésiers de canard, croûtons, tomate cerise, oignon rouge, noix, vinaigrette à la moutarde à l'ancienne.",
 
-        salmon_bagel_name: "Bagel de saumon fumé",
+        salmon_bagel_name:
+            "Bagel de saumon fumé",
+
         salmon_bagel_description:
             "Pain en forme de bagel, saumon fumé, salade, tomate, fromage frais aux fines herbes, concombre.",
 
-        caesar_starter_name: "Salade César",
+        caesar_starter_name:
+            "Salade César",
+
         caesar_starter_description:
             "Salade, tomate cerise, poulet pané, croûtons, oignon crispy, copeaux de parmesan, sauce César.",
 
 
-        charcuterie: "Planche de charcuterie",
-        charcuterie_name: "Planche à partager",
+        charcuterie:
+            "Planche de charcuterie",
+
+        charcuterie_name:
+            "Planche à partager",
+
         charcuterie_description:
             "Jambon de Bayonne, rosette, coppa, pâté de campagne, cornichons, chorizo, fromage et pain tranché.",
 
 
-        main_courses: "Plats",
+        main_courses:
+            "Plats",
 
-        duck_confit_name: "Confit de canard",
+        duck_confit_name:
+            "Confit de canard",
 
         whole_duck_breast_name:
             "Magret de canard entier",
@@ -82,6 +96,10 @@ const translations = {
         side_rice:
             "Riz",
 
+
+        /* ===============================
+           MENU ENFANT
+        =============================== */
 
         children_menu_title:
             "Menu Enfant",
@@ -264,6 +282,10 @@ const translations = {
             "Rice",
 
 
+        /* ===============================
+           KIDS' MENU
+        =============================== */
+
         children_menu_title:
             "Kids' Menu",
 
@@ -444,6 +466,10 @@ const translations = {
         side_rice:
             "Arroz",
 
+
+        /* ===============================
+           MENÚ INFANTIL
+        =============================== */
 
         children_menu_title:
             "Menú Infantil",
@@ -626,6 +652,10 @@ const translations = {
             "Riso",
 
 
+        /* ===============================
+           MENU BAMBINI
+        =============================== */
+
         children_menu_title:
             "Menu Bambini",
 
@@ -713,7 +743,7 @@ const translations = {
 
 
 /* =========================================================
-   BOUTONS DE LANGUE
+   BOUTONS DES LANGUES
 ========================================================= */
 
 const languageButtons =
@@ -743,35 +773,56 @@ function changeLanguage(language) {
     const selectedTranslations =
         translations[language];
 
+
     if (!selectedTranslations) {
         return;
     }
 
 
-    document
-        .querySelectorAll("[data-i18n]")
-        .forEach(element => {
+    /*
+     * Recherche tous les éléments du HTML
+     * possédant un attribut data-i18n.
+     */
 
-            const key =
-                element.dataset.i18n;
+    const elements =
+        document.querySelectorAll("[data-i18n]");
 
-            if (
-                Object.prototype.hasOwnProperty.call(
-                    selectedTranslations,
-                    key
-                )
-            ) {
 
-                element.textContent =
-                    selectedTranslations[key];
+    elements.forEach(element => {
 
-            }
+        const key =
+            element.dataset.i18n;
 
-        });
+
+        if (
+            Object.prototype.hasOwnProperty.call(
+                selectedTranslations,
+                key
+            )
+        ) {
+
+            element.textContent =
+                selectedTranslations[key];
+
+        } else {
+
+            /*
+             * Utile pendant le développement :
+             * permet de voir dans la console
+             * si une traduction manque.
+             */
+
+            console.warn(
+                `Traduction manquante : ${key} (${language})`
+            );
+
+        }
+
+    });
 
 
     /*
-     * Met à jour l'attribut lang du HTML.
+     * Change la langue déclarée du document.
      */
 
     document.documentElement.lang =
@@ -779,7 +830,7 @@ function changeLanguage(language) {
 
 
     /*
-     * Met à jour le bouton sélectionné.
+     * Change visuellement le bouton actif.
      */
 
     languageButtons.forEach(button => {
@@ -793,7 +844,7 @@ function changeLanguage(language) {
 
 
     /*
-     * Mémorise la langue choisie.
+     * Mémorise le choix du client.
      */
 
     localStorage.setItem(
@@ -805,7 +856,7 @@ function changeLanguage(language) {
 
 
 /* =========================================================
-   LANGUE MÉMORISÉE
+   LANGUE AU CHARGEMENT
 ========================================================= */
 
 const savedLanguage =

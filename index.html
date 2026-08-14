@@ -16,28 +16,33 @@
 
 <body>
 
-    <!-- ================================
+    <!-- ==========================================
          HEADER
-    ================================= -->
+    ========================================== -->
 
     <header class="header">
 
         <div class="header-content">
 
-            <h1>LA TERRASSE</h1>
+            <h1>La Terrasse</h1>
 
-            <p data-i18n="restaurant">Restaurant • Lourdes</p>
+            <p data-i18n="restaurant">
+                Restaurant • Bar • Lourdes
+            </p>
 
         </div>
 
 
-        <!-- LANGUES -->
+        <!-- ======================================
+             LANGUES
+        ======================================= -->
 
         <div class="language-selector">
 
             <button
                 class="language-btn active"
                 data-language="fr"
+                type="button"
             >
                 🇫🇷 FR
             </button>
@@ -45,6 +50,7 @@
             <button
                 class="language-btn"
                 data-language="en"
+                type="button"
             >
                 🇬🇧 EN
             </button>
@@ -52,6 +58,7 @@
             <button
                 class="language-btn"
                 data-language="es"
+                type="button"
             >
                 🇪🇸 ES
             </button>
@@ -59,6 +66,7 @@
             <button
                 class="language-btn"
                 data-language="it"
+                type="button"
             >
                 🇮🇹 IT
             </button>
@@ -68,21 +76,21 @@
     </header>
 
 
-    <!-- ================================
+    <!-- ==========================================
          MENU
-    ================================= -->
+    ========================================== -->
 
     <main class="menu-container">
 
 
-        <!-- ================================
+        <!-- ======================================
              ENTRÉES
-        ================================= -->
+        ======================================= -->
 
         <section class="menu-section">
 
             <h2 data-i18n="starters">
-                Nos Entrées
+                Entrées
             </h2>
 
 
@@ -103,15 +111,15 @@
                 </div>
 
                 <p data-i18n="gizzard_description">
-                    Salade, gésiers de canard, croûtons,
-                    tomates cerises, oignon rouge, noix
-                    et vinaigrette à la moutarde à l'ancienne.
+                    Salade verte, gésiers de canard, croûtons,
+                    tomate cerise, oignon rouge, noix,
+                    vinaigrette à la moutarde à l'ancienne.
                 </p>
 
             </article>
 
 
-            <!-- BAGEL SAUMON -->
+            <!-- BAGEL -->
 
             <article class="menu-item">
 
@@ -128,9 +136,9 @@
                 </div>
 
                 <p data-i18n="salmon_bagel_description">
-                    Pain bagel, saumon fumé, salade,
-                    tomate, fromage frais aux herbes
-                    et concombre.
+                    Pain en forme de bagel, saumon fumé,
+                    salade, tomate, fromage frais aux fines herbes,
+                    concombre.
                 </p>
 
             </article>
@@ -153,206 +161,521 @@
                 </div>
 
                 <p data-i18n="caesar_starter_description">
-                    Salade, tomates cerises, poulet pané,
-                    croûtons, oignon crispy, copeaux de parmesan
-                    et sauce César.
+                    Salade, tomate cerise, poulet pané,
+                    croûtons, oignon crispy, copeaux de parmesan,
+                    sauce César.
                 </p>
 
             </article>
 
         </section>
 
-        <!-- ================================
-             PLANCHE
-        ================================= -->
+
+        <!-- ======================================
+             PLANCHE DE CHARCUTERIE
+        ======================================= -->
 
         <section class="menu-section">
 
-            <h2 data-i18n="charcuterie">Planche de charcuterie</h2>
+            <h2 data-i18n="charcuterie">
+                Planche de charcuterie
+            </h2>
 
             <article class="menu-item">
+
                 <div class="item-header">
-                    <h3 data-i18n="charcuterie_name">Planche à partager</h3>
-                    <span class="price">14 €</span>
+
+                    <h3 data-i18n="charcuterie_name">
+                        Planche à partager
+                    </h3>
+
+                    <span class="price">
+                        14,00 €
+                    </span>
+
                 </div>
 
                 <p data-i18n="charcuterie_description">
-                    Jambon de Bayonne, rosette, coppa, pâté de campagne, cornichons, chorizo,
+                    Jambon de Bayonne, rosette, coppa,
+                    pâté de campagne, cornichons, chorizo,
                     fromage et pain tranché.
                 </p>
+
             </article>
 
         </section>
 
 
-        <!-- ================================
+        <!-- ======================================
              PLATS
-        ================================= -->
+        ======================================= -->
 
         <section class="menu-section">
 
-            <h2 data-i18n="main_courses">Nos Plats</h2>
+            <h2 data-i18n="main_courses">
+                Plats
+            </h2>
+
+
+            <!-- CONFIT -->
 
             <article class="menu-item bullet-item">
+
                 <div class="item-header">
-                    <h3 data-i18n="duck_confit_name">Confit de canard</h3>
-                    <span class="price">15 €</span>
+
+                    <h3 data-i18n="duck_confit_name">
+                        Confit de canard
+                    </h3>
+
+                    <span class="price">
+                        15,00 €
+                    </span>
+
                 </div>
+
             </article>
 
-            <article class="menu-item bullet-item">
-                <div class="item-header">
-                    <h3 data-i18n="whole_duck_breast_name">Magret de canard entier</h3>
-                    <span class="price">25 €</span>
-                </div>
-            </article>
+
+            <!-- MAGRET ENTIER -->
 
             <article class="menu-item bullet-item">
+
                 <div class="item-header">
-                    <h3 data-i18n="half_duck_breast_name">Demi magret de canard</h3>
-                    <span class="price">16 €</span>
+
+                    <h3 data-i18n="whole_duck_breast_name">
+                        Magret de canard entier
+                    </h3>
+
+                    <span class="price">
+                        25,00 €
+                    </span>
+
                 </div>
+
             </article>
 
-            <article class="menu-item bullet-item">
-                <div class="item-header">
-                    <h3 data-i18n="salmon_name">Pavé de saumon</h3>
-                    <span class="price">15 €</span>
-                </div>
-                <p data-i18n="salmon_description">Sauce échalote citronnée.</p>
-            </article>
+
+            <!-- DEMI MAGRET -->
 
             <article class="menu-item bullet-item">
+
                 <div class="item-header">
-                    <h3 data-i18n="caesar_main_name">Salade César</h3>
-                    <span class="price">15,90 €</span>
+
+                    <h3 data-i18n="half_duck_breast_name">
+                        Demi magret de canard
+                    </h3>
+
+                    <span class="price">
+                        16,00 €
+                    </span>
+
                 </div>
+
+            </article>
+
+
+            <!-- SAUMON -->
+
+            <article class="menu-item bullet-item">
+
+                <div class="item-header">
+
+                    <h3 data-i18n="salmon_name">
+                        Pavé de saumon
+                    </h3>
+
+                    <span class="price">
+                        15,00 €
+                    </span>
+
+                </div>
+
+                <p data-i18n="salmon_description">
+                    Sauce échalote citronnée.
+                </p>
+
+            </article>
+
+
+            <!-- SALADE CÉSAR -->
+
+            <article class="menu-item bullet-item">
+
+                <div class="item-header">
+
+                    <h3 data-i18n="caesar_main_name">
+                        Salade César
+                    </h3>
+
+                    <span class="price">
+                        15,90 €
+                    </span>
+
+                </div>
+
                 <p data-i18n="caesar_main_description">
-                    Salade, tomate cerise, poulet pané, oignons crispy, croûtons et copeaux de Parmesan.
+                    Salade, tomate cerise, poulet pané,
+                    oignons crispy, croûtons,
+                    copeaux de parmesan.
                 </p>
+
             </article>
 
+
+            <!-- HAMBURGER -->
+
             <article class="menu-item bullet-item">
+
                 <div class="item-header">
-                    <h3 data-i18n="burger_name">Hamburger du Chef</h3>
-                    <span class="price">14,90 €</span>
+
+                    <h3 data-i18n="burger_name">
+                        Hamburger du Chef
+                    </h3>
+
+                    <span class="price">
+                        14,90 €
+                    </span>
+
                 </div>
+
                 <p data-i18n="burger_description">
-                    Pain aux graines de sésame, salade, tomate, compotée d'oignons, tranche de bacon,
-                    emmental, steak haché de bœuf et sauce barbecue.
+                    Pain aux graines de sésame, salade, tomate,
+                    compotée d'oignons, tranche de bacon,
+                    emmental, steak haché de bœuf,
+                    sauce barbecue.
                 </p>
+
             </article>
 
-            <article class="menu-item bullet-item">
-                <div class="item-header">
-                    <h3 data-i18n="fish_chips_name">Fish &amp; Chips</h3>
-                    <span class="price">14,90 €</span>
-                </div>
-                <p data-i18n="fish_chips_description">Sauce tartare.</p>
-            </article>
+
+            <!-- FISH & CHIPS -->
 
             <article class="menu-item bullet-item">
+
                 <div class="item-header">
-                    <h3 data-i18n="butcher_name">Pièce du boucher</h3>
-                    <span class="price">—</span>
+
+                    <h3 data-i18n="fish_chips_name">
+                        Fish & Chips
+                    </h3>
+
+                    <span class="price">
+                        14,90 €
+                    </span>
+
                 </div>
-                <p data-i18n="butcher_description">En fonction de l'arrivage.</p>
+
+                <p data-i18n="fish_chips_description">
+                    Sauce tartare.
+                </p>
+
             </article>
+
+
+            <!-- PIÈCE DU BOUCHER -->
+
+            <article class="menu-item bullet-item">
+
+                <div class="item-header">
+
+                    <h3 data-i18n="butcher_name">
+                        Pièce du boucher
+                    </h3>
+
+                    <span class="price">
+                        —
+                    </span>
+
+                </div>
+
+                <p data-i18n="butcher_description">
+                    En fonction de l'arrivage.
+                </p>
+
+            </article>
+
+
+            <!-- ACCOMPAGNEMENTS -->
 
             <div class="accompaniments">
-                <h3 data-i18n="sides_title">Accompagnements au choix</h3>
+
+                <h3 data-i18n="sides_title">
+                    Accompagnements au choix
+                </h3>
+
                 <p>
-                    <span data-i18n="side_fries">Frites</span>
-                    <span>•</span>
-                    <span data-i18n="side_rice">Riz</span>
-                    <span>•</span>
-                    <span data-i18n="side_tagliatelle">Tagliatelles</span>
+
+                    <span data-i18n="side_fries">
+                        Frites
+                    </span>
+
+                    •
+
+                    <span data-i18n="side_tagliatelle">
+                        Tagliatelles
+                    </span>
+
+                    •
+
+                    <span data-i18n="side_rice">
+                        Riz
+                    </span>
+
                 </p>
+
             </div>
 
         </section>
 
 
-        <!-- ================================
+        <!-- ======================================
              MENU ENFANT
-        ================================= -->
+        ======================================= -->
 
         <section class="menu-section">
-            <h2 data-i18n="kids_menu_title">Menu enfant</h2>
+
+            <h2 data-i18n="children_menu_title">
+                Menu Enfant
+            </h2>
 
             <div class="special-box children-menu">
-                <div class="children-price">10 €</div>
 
-                <h3 data-i18n="kids_choice_title">Plat au choix</h3>
+                <div class="children-price">
+                    10 €
+                </div>
+
+
                 <ul>
-                    <li data-i18n="kids_steak">Steak haché</li>
-                    <li data-i18n="kids_tenders">Tenders</li>
-                    <li data-i18n="kids_fish_chips">Fish &amp; Chips</li>
+
+                    <li data-i18n="children_steak">
+                        Steak haché
+                    </li>
+
+                    <li data-i18n="children_tenders">
+                        Tenders
+                    </li>
+
+                    <li data-i18n="children_fish">
+                        Fish & Chips
+                    </li>
+
                 </ul>
 
-                <p data-i18n="kids_side">
-                    Accompagnement au choix : frites, riz ou tagliatelles.
+
+                <h3 data-i18n="children_side_title">
+                    Accompagnement au choix
+                </h3>
+
+                <p data-i18n="children_side_description">
+                    Frites, tagliatelles ou riz
                 </p>
 
-                <p data-i18n="kids_drink">
-                    + 1 sirop au choix (grenadine, menthe, pêche, etc.) ou Caprisun.
+
+                <h3 data-i18n="children_drink_title">
+                    + 1 boisson au choix
+                </h3>
+
+                <p data-i18n="children_drink_description">
+                    1 sirop au choix : grenadine, menthe,
+                    pêche, etc. ou Caprisun
                 </p>
 
-                <p data-i18n="kids_ice_cream">
-                    + 1 boule de glace au choix.
+
+                <h3 data-i18n="children_icecream_title">
+                    + 1 boule de glace
+                </h3>
+
+                <p data-i18n="children_icecream_description">
+                    Parfum au choix
                 </p>
+
             </div>
+
         </section>
 
-        <!-- ================================
-             DESSERTS
-        ================================= -->
+
+        <!-- ======================================
+             SUPPLÉMENTS
+        ======================================= -->
 
         <section class="menu-section">
 
-            <h2 data-i18n="desserts">Nos Desserts</h2>
+            <h2 data-i18n="supplements_title">
+                Suppléments
+            </h2>
+
+            <div class="supplements">
+
+
+                <div class="supplement-row">
+
+                    <span data-i18n="extra_sauce">
+                        Sauce supplémentaire
+                    </span>
+
+                    <span class="supplement-price">
+                        1,50 €
+                    </span>
+
+                </div>
+
+
+                <div class="supplement-row">
+
+                    <span data-i18n="extra_fries">
+                        Portion de frites
+                    </span>
+
+                    <span class="supplement-price">
+                        2,00 €
+                    </span>
+
+                </div>
+
+
+                <div class="supplement-row">
+
+                    <span data-i18n="extra_rice">
+                        Riz
+                    </span>
+
+                    <span class="supplement-price">
+                        2,50 €
+                    </span>
+
+                </div>
+
+
+                <div class="supplement-row">
+
+                    <span data-i18n="extra_tagliatelle">
+                        Tagliatelles
+                    </span>
+
+                    <span class="supplement-price">
+                        2,50 €
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             DESSERTS
+        ======================================= -->
+
+        <section class="menu-section">
+
+            <h2 data-i18n="desserts">
+                Desserts
+            </h2>
 
             <article class="menu-item">
+
                 <div class="item-header">
-                    <h3 data-i18n="dessert_name">Dessert au choix</h3>
+
+                    <h3 data-i18n="dessert_name">
+                        Dessert au choix
+                    </h3>
+
                 </div>
-                <p data-i18n="dessert_description">En fonction de l'arrivage.</p>
+
+                <p data-i18n="dessert_description">
+                    En fonction de l'arrivage.
+                </p>
+
             </article>
 
         </section>
 
 
-        <!-- ================================
+        <!-- ======================================
              GLACES
-        ================================= -->
+        ======================================= -->
 
         <section class="menu-section ice-cream-section">
 
-            <h2 data-i18n="ice_creams">Glaces</h2>
+            <h2 data-i18n="ice_creams">
+                Glaces
+            </h2>
+
+
+            <!-- 1 BOULE -->
 
             <div class="ice-cream-row">
-                <span class="ice-cream-name" data-i18n="ice_one_scoop">1 boule</span>
-                <span class="ice-cream-price">3 €</span>
+
+                <span
+                    class="ice-cream-name"
+                    data-i18n="one_scoop"
+                >
+                    1 boule
+                </span>
+
+                <span class="ice-cream-price">
+                    3,00 €
+                </span>
+
             </div>
+
+
+            <!-- 2 BOULES -->
 
             <div class="ice-cream-row">
-                <span class="ice-cream-name" data-i18n="ice_two_scoops">2 boules</span>
-                <span class="ice-cream-price">4,50 €</span>
+
+                <span
+                    class="ice-cream-name"
+                    data-i18n="two_scoops"
+                >
+                    2 boules
+                </span>
+
+                <span class="ice-cream-price">
+                    4,50 €
+                </span>
+
             </div>
 
-            <div class="ice-cream-row ice-cream-coupe">
-                <div>
-                    <span class="ice-cream-name" data-i18n="ice_sundae">Coupe glacée</span>
-                    <p class="ice-cream-description" data-i18n="ice_sundae_description">
-                        3 boules + chantilly + sirop
-                    </p>
+
+            <!-- COUPE GLACÉE -->
+
+            <article class="menu-item ice-cream-sundae">
+
+                <div class="item-header">
+
+                    <h3 data-i18n="icecream_cup">
+                        Coupe glacée
+                    </h3>
+
+                    <span class="price">
+                        7,90 €
+                    </span>
+
                 </div>
-                <span class="ice-cream-price">7,90 €</span>
-            </div>
+
+                <p data-i18n="icecream_cup_description">
+                    3 boules + chantilly + sirop
+                </p>
+
+            </article>
+
+
+            <!-- SUPPLÉMENT CHANTILLY -->
 
             <div class="ice-cream-row">
-                <span class="ice-cream-name" data-i18n="ice_whipped_extra">Supplément chantilly</span>
-                <span class="ice-cream-price">0,50 €</span>
+
+                <span
+                    class="ice-cream-name"
+                    data-i18n="extra_whipped_cream"
+                >
+                    Supplément chantilly
+                </span>
+
+                <span class="ice-cream-price">
+                    0,50 €
+                </span>
+
             </div>
 
         </section>
@@ -360,9 +683,9 @@
     </main>
 
 
-    <!-- ================================
+    <!-- ==========================================
          FOOTER
-    ================================= -->
+    ========================================== -->
 
     <footer class="footer">
 
