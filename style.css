@@ -1,241 +1,40 @@
 /* =========================================================
-   LA TERRASSE — MENU DIGITAL
-   Mobile First
+   ONGLETS CARTE / BOISSONS
 ========================================================= */
 
+.menu-tabs {
+    position: relative;
 
-/* =========================================================
-   VARIABLES
-========================================================= */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 
-:root {
-
-    --black: #080808;
-    --black-soft: #101010;
-    --black-card: #11100e;
-
-    --gold: #c99428;
-    --gold-light: #e1b34c;
-    --gold-dark: #805a18;
-
-    --cream: #eee7d8;
-    --cream-soft: #cfc7b7;
-
-    --red: #8e3028;
-    --red-light: #b34b3d;
-
-    --line: rgba(201, 148, 40, 0.55);
-
+    margin-top: 22px;
 }
 
+.menu-tab {
+    min-width: 120px;
 
-/* =========================================================
-   RESET
-========================================================= */
+    padding: 10px 18px;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    border: 1px solid rgba(201, 148, 40, 0.55);
 
+    background: rgba(0, 0, 0, 0.5);
 
-html {
-    scroll-behavior: smooth;
-}
-
-
-/* =========================================================
-   BODY
-========================================================= */
-
-body {
+    color: var(--cream-soft);
 
     font-family:
         "Trebuchet MS",
         Arial,
-        Helvetica,
         sans-serif;
 
-    background:
-        radial-gradient(
-            circle at top,
-            #171512 0%,
-            var(--black) 55%,
-            #050505 100%
-        );
+    font-size: 0.85rem;
 
-    color: var(--cream);
-
-    line-height: 1.55;
-
-    min-height: 100vh;
-}
-
-
-/* =========================================================
-   HEADER
-========================================================= */
-
-.header {
-
-    position: relative;
-
-    background:
-        radial-gradient(
-            ellipse at center,
-            #211c14 0%,
-            #0b0b0a 55%,
-            #050505 100%
-        );
-
-    color: var(--cream);
-
-    text-align: center;
-
-    padding:
-        34px 18px 26px;
-
-    border-bottom:
-        1px solid var(--gold-dark);
-
-    box-shadow:
-        0 4px 25px rgba(0, 0, 0, 0.6);
-}
-
-
-.header::before {
-
-    content: "";
-
-    position: absolute;
-
-    inset: 10px;
-
-    border:
-        1px solid rgba(201, 148, 40, 0.35);
-
-    pointer-events: none;
-}
-
-
-/* =========================================================
-   LOGO / NOM
-========================================================= */
-
-.header h1 {
-
-    position: relative;
-
-    font-family:
-        "Brush Script MT",
-        "Segoe Script",
-        cursive;
-
-    font-size:
-        clamp(3rem, 12vw, 5.5rem);
-
-    font-weight: 400;
-
-    line-height: 0.9;
-
-    color: #f3eee5;
-
-    letter-spacing: 1px;
-
-    text-shadow:
-        0 2px 5px rgba(0, 0, 0, 0.8);
-}
-
-
-.header h1::after {
-
-    content: "";
-
-    display: block;
-
-    width: 150px;
-
-    height: 3px;
-
-    margin:
-        12px auto 8px;
-
-    background:
-        linear-gradient(
-            90deg,
-            transparent,
-            var(--gold),
-            var(--gold-light),
-            var(--gold),
-            transparent
-        );
-
-    transform:
-        rotate(-2deg);
-}
-
-
-.header p {
-
-    font-family:
-        Georgia,
-        serif;
-
-    font-size: 0.78rem;
-
-    letter-spacing: 4px;
+    letter-spacing: 1.5px;
 
     text-transform: uppercase;
 
-    color: var(--gold-light);
-
-    margin-top: 5px;
-}
-
-
-/* =========================================================
-   LANGUES
-========================================================= */
-
-.language-selector {
-
-    position: relative;
-
-    display: flex;
-
-    justify-content: center;
-
-    gap: 7px;
-
-    margin-top: 25px;
-
-    flex-wrap: wrap;
-}
-
-
-.language-btn {
-
-    appearance: none;
-
-    border:
-        1px solid rgba(201, 148, 40, 0.6);
-
-    background:
-        rgba(0, 0, 0, 0.55);
-
-    color: var(--cream);
-
-    padding:
-        8px 12px;
-
-    border-radius: 2px;
-
     cursor: pointer;
-
-    font-size: 0.78rem;
-
-    letter-spacing: 1px;
 
     transition:
         background 0.2s ease,
@@ -244,22 +43,15 @@ body {
         transform 0.2s ease;
 }
 
+.menu-tab:hover {
+    color: var(--gold-light);
 
-.language-btn:hover {
+    border-color: var(--gold-light);
 
-    border-color:
-        var(--gold-light);
-
-    color:
-        var(--gold-light);
-
-    transform:
-        translateY(-1px);
+    transform: translateY(-1px);
 }
 
-
-.language-btn.active {
-
+.menu-tab.active {
     background:
         linear-gradient(
             135deg,
@@ -267,540 +59,98 @@ body {
             var(--gold)
         );
 
-    border-color:
-        var(--gold-light);
+    border-color: var(--gold-light);
 
-    color: #090909;
+    color: #080808;
 
     font-weight: bold;
 }
 
 
 /* =========================================================
-   CONTENEUR
+   CONTENU DES ONGLETS
 ========================================================= */
 
-.menu-container {
+.tab-content {
+    display: none;
+}
 
-    width: 100%;
-
-    max-width: 900px;
-
-    margin: auto;
-
-    padding:
-        25px 15px 50px;
+.tab-content.active {
+    display: block;
 }
 
 
 /* =========================================================
-   SECTIONS
+   SECTIONS BOISSONS
 ========================================================= */
 
-.menu-section {
-
-    position: relative;
-
-    margin-bottom: 32px;
-
-    padding:
-        20px 12px 22px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255, 255, 255, 0.015),
-            rgba(201, 148, 40, 0.025)
-        );
-
-    border:
-        1px solid rgba(201, 148, 40, 0.18);
-}
-
-
-.menu-section::before {
-
-    content: "";
-
-    position: absolute;
-
-    inset: 5px;
-
-    border:
-        1px solid rgba(201, 148, 40, 0.10);
-
-    pointer-events: none;
+.drinks-section {
+    margin-bottom: 30px;
 }
 
 
 /* =========================================================
-   TITRES DE SECTIONS
+   SOUS-CATÉGORIES DES EAUX
 ========================================================= */
 
-.menu-section h2 {
+.drink-category {
+    margin: 22px 0 10px;
 
-    position: relative;
+    padding-bottom: 6px;
 
-    display: table;
+    color: var(--gold-light);
 
-    margin:
-        0 auto 25px;
-
-    padding:
-        7px 28px;
-
-    background:
-        linear-gradient(
-            90deg,
-            #735019,
-            #b17c24,
-            #805918
-        );
-
-    color: #f5eee0;
-
-    font-size: 1.35rem;
-
-    font-weight: 400;
-
-    letter-spacing: 2px;
-
-    text-transform: uppercase;
-
-    text-align: center;
-
-    border:
-        1px solid rgba(225, 179, 76, 0.45);
-
-    box-shadow:
-        0 3px 10px rgba(0, 0, 0, 0.45);
-}
-
-
-.menu-section h2::before,
-.menu-section h2::after {
-
-    content: "";
-
-    position: absolute;
-
-    top: 50%;
-
-    width: 25px;
-
-    height: 1px;
-
-    background:
-        var(--gold-light);
-}
-
-
-.menu-section h2::before {
-
-    right: 100%;
-
-    margin-right: 10px;
-}
-
-
-.menu-section h2::after {
-
-    left: 100%;
-
-    margin-left: 10px;
-}
-
-
-/* =========================================================
-   PLATS
-========================================================= */
-
-.menu-item {
-
-    position: relative;
-
-    padding:
-        0 3px 17px;
-
-    margin-bottom: 17px;
-
-    background: transparent;
-
-    border-radius: 0;
-
-    box-shadow: none;
-}
-
-
-.menu-item:not(:last-child)::after {
-
-    content: "";
-
-    position: absolute;
-
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    height: 1px;
-
-    background:
-        repeating-linear-gradient(
-            90deg,
-            var(--gold-dark) 0,
-            var(--gold-dark) 3px,
-            transparent 3px,
-            transparent 7px
-        );
-
-    opacity: 0.75;
-}
-
-
-/* =========================================================
-   NOM + PRIX
-========================================================= */
-
-.item-header {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: flex-start;
-
-    gap: 12px;
-}
-
-
-.menu-item h3 {
-
-    color:
-        var(--cream);
-
-    font-size: 1.05rem;
+    font-size: 0.95rem;
 
     font-weight: 500;
 
-    line-height: 1.3;
-}
-
-
-.price {
-
-    flex-shrink: 0;
-
-    color:
-        var(--gold-light);
-
-    font-family:
-        Georgia,
-        serif;
-
-    font-size: 1rem;
-
-    font-weight: bold;
-
-    white-space: nowrap;
-}
-
-
-/* =========================================================
-   DESCRIPTION
-========================================================= */
-
-.menu-item p {
-
-    margin-top: 6px;
-
-    color:
-        var(--cream-soft);
-
-    font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
-
-    font-size: 0.88rem;
-
-    line-height: 1.45;
-}
-
-
-/* =========================================================
-   PUCES DES PLATS
-========================================================= */
-
-.menu-item.bullet-item {
-
-    padding-left: 17px;
-}
-
-
-.menu-item.bullet-item::before {
-
-    content: "";
-
-    position: absolute;
-
-    left: 0;
-
-    top: 8px;
-
-    width: 6px;
-
-    height: 6px;
-
-    background:
-        var(--gold);
-
-    border-radius: 50%;
-}
-
-
-/* =========================================================
-   ACCOMPAGNEMENTS
-========================================================= */
-
-.accompaniments {
-
-    position: relative;
-
-    margin-top: 25px;
-
-    padding:
-        15px 12px;
-
-    border:
-        1px solid rgba(201, 148, 40, 0.6);
-
-    background:
-        rgba(201, 148, 40, 0.035);
-
-    text-align: center;
-}
-
-
-.accompaniments h3 {
-
-    margin-bottom: 8px;
-
-    color:
-        var(--gold-light);
-
-    font-size: 0.9rem;
-
-    letter-spacing: 1.3px;
-
-    text-transform: uppercase;
-}
-
-
-.accompaniments p {
-
-    color:
-        var(--cream);
-
-    font-size: 0.95rem;
-}
-
-
-.accompaniments span {
-
-    margin:
-        0 5px;
-}
-
-
-/* =========================================================
-   BLOCS SPÉCIAUX
-========================================================= */
-
-.special-box {
-
-    position: relative;
-
-    margin-top: 10px;
-
-    padding:
-        20px 15px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(201, 148, 40, 0.06),
-            rgba(0, 0, 0, 0.3)
-        );
-
-    border:
-        1px solid rgba(201, 148, 40, 0.65);
-
-    box-shadow:
-        inset 0 0 0 4px rgba(201, 148, 40, 0.04);
-}
-
-
-.special-box h3 {
-
-    color:
-        var(--gold-light);
-
-    font-size: 0.9rem;
-
     text-align: center;
 
     text-transform: uppercase;
 
-    letter-spacing: 1.3px;
+    letter-spacing: 1.5px;
 
-    margin:
-        18px 0 7px;
-}
-
-
-.special-box p {
-
-    color:
-        var(--cream-soft);
-
-    text-align: center;
-
-    font-family:
-        Georgia,
-        serif;
-
-    font-size: 0.88rem;
+    border-bottom:
+        1px solid rgba(201, 148, 40, 0.35);
 }
 
 
 /* =========================================================
-   MENU ENFANT
+   LIGNES DES BOISSONS
 ========================================================= */
 
-.children-menu {
-
-    border-color:
-        rgba(201, 148, 40, 0.8);
-
-    background:
-        radial-gradient(
-            circle at top right,
-            rgba(201, 148, 40, 0.10),
-            transparent 55%
-        );
-}
-
-
-.children-menu .children-price {
-
-    color:
-        var(--gold-light);
-
-    font-size: 1.8rem;
-
-    font-family:
-        Georgia,
-        serif;
-
-    font-weight: bold;
-
-    text-align: center;
-
-    margin-bottom: 18px;
-}
-
-
-.children-menu ul {
-
-    list-style: none;
-
-    max-width: 320px;
-
-    margin:
-        0 auto 20px;
-}
-
-
-.children-menu li {
-
-    position: relative;
-
-    padding-left: 20px;
-
-    margin-bottom: 9px;
-
-    color:
-        var(--cream);
-
-    font-size: 0.95rem;
-}
-
-
-.children-menu li::before {
-
-    content: "•";
-
-    position: absolute;
-
-    left: 0;
-
-    color:
-        var(--gold-light);
-
-    font-size: 1.25rem;
-}
-
-
-/* =========================================================
-   SUPPLÉMENTS
-========================================================= */
-
-.supplements {
-
-    padding:
-        15px;
-
-    border:
-        1px solid rgba(142, 48, 40, 0.7);
-
-    background:
-        rgba(142, 48, 40, 0.08);
-}
-
-
-.supplement-row {
-
+.drink-row {
     display: flex;
 
     justify-content: space-between;
 
     align-items: center;
 
-    gap: 15px;
+    gap: 18px;
 
-    padding:
-        8px 0;
+    padding: 10px 3px;
 
     border-bottom:
-        1px dotted rgba(201, 148, 40, 0.4);
+        1px dotted rgba(201, 148, 40, 0.45);
 
-    color:
-        var(--cream-soft);
+    color: var(--cream);
 
-    font-size: 0.9rem;
+    font-size: 0.92rem;
 }
 
-
-.supplement-row:last-child {
-
+.drink-row:last-child {
     border-bottom: none;
 }
 
 
-.supplement-price {
+/* =========================================================
+   PRIX DES BOISSONS
+========================================================= */
 
-    color:
-        var(--gold-light);
+.drink-price {
+    flex-shrink: 0;
+
+    color: var(--gold-light);
 
     font-family:
         Georgia,
@@ -813,333 +163,56 @@ body {
 
 
 /* =========================================================
-   GLACES
+   MOBILE
 ========================================================= */
 
-.ice-cream-section {
+@media (max-width: 480px) {
 
-    border-color:
-        rgba(142, 48, 40, 0.45);
-}
+    .menu-tabs {
+        gap: 7px;
 
-
-.ice-cream-section h2 {
-
-    background:
-        linear-gradient(
-            90deg,
-            #70271f,
-            #9a382e,
-            #70271f
-        );
-}
-
-
-.ice-cream-row {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    gap: 15px;
-
-    padding:
-        11px 3px;
-
-    border-bottom:
-        1px dotted rgba(201, 148, 40, 0.5);
-}
-
-
-.ice-cream-name {
-
-    color:
-        var(--cream);
-
-    font-size: 0.95rem;
-}
-
-
-.ice-cream-price {
-
-    color:
-        var(--gold-light);
-
-    font-family:
-        Georgia,
-        serif;
-
-    white-space: nowrap;
-
-    font-weight: bold;
-}
-
-
-.ice-cream-sundae {
-
-    margin:
-        15px 0 5px;
-
-    padding:
-        10px 3px 15px;
-}
-
-
-.ice-cream-sundae p {
-
-    color:
-        var(--cream-soft);
-}
-
-
-/* =========================================================
-   FOOTER
-========================================================= */
-
-.footer {
-
-    position: relative;
-
-    background:
-        linear-gradient(
-            180deg,
-            #0e0d0b,
-            #050505
-        );
-
-    color:
-        var(--cream);
-
-    text-align: center;
-
-    padding:
-        30px 15px;
-
-    border-top:
-        1px solid var(--gold-dark);
-}
-
-
-.footer p {
-
-    font-family:
-        Georgia,
-        serif;
-
-    font-size: 0.9rem;
-}
-
-
-.footer p + p {
-
-    margin-top: 7px;
-
-    color:
-        var(--gold-light);
-}
-
-
-/* =========================================================
-   TABLETTE
-========================================================= */
-
-@media (min-width: 600px) {
-
-    .header {
-
-        padding:
-            42px 20px 32px;
+        margin-top: 18px;
     }
 
+    .menu-tab {
+        min-width: 105px;
 
-    .menu-container {
+        padding: 9px 12px;
 
-        padding:
-            35px 25px 60px;
+        font-size: 0.76rem;
+
+        letter-spacing: 1px;
     }
 
+    .drink-row {
+        font-size: 0.84rem;
 
-    .menu-section {
-
-        padding:
-            25px 22px 28px;
-
-        margin-bottom: 40px;
+        gap: 12px;
     }
 
-
-    .menu-section h2 {
-
-        font-size: 1.55rem;
-    }
-
-
-    .menu-item h3 {
-
-        font-size: 1.1rem;
-    }
-
-
-    .menu-item p {
-
-        font-size: 0.92rem;
-    }
-
-
-    .children-menu {
-
-        padding:
-            25px 30px;
+    .drink-category {
+        font-size: 0.85rem;
     }
 
 }
 
 
 /* =========================================================
-   DESKTOP
+   TRÈS PETITS SMARTPHONES
 ========================================================= */
 
-@media (min-width: 900px) {
+@media (max-width: 360px) {
 
-    .header {
+    .menu-tab {
+        min-width: 95px;
 
-        padding:
-            50px 20px 35px;
-    }
-
-
-    .menu-container {
-
-        max-width: 1050px;
-
-        padding-top: 55px;
-    }
-
-
-    .menu-item {
-
-        transition:
-            transform 0.2s ease;
-    }
-
-
-    .menu-item:hover {
-
-        transform:
-            translateX(3px);
-    }
-
-
-    .special-box {
-
-        transition:
-            border-color 0.2s ease;
-    }
-
-
-    .special-box:hover {
-
-        border-color:
-            var(--gold-light);
-    }
-
-}
-
-
-/* =========================================================
-   PETITS SMARTPHONES
-========================================================= */
-
-@media (max-width: 380px) {
-
-    .header {
-
-        padding:
-            28px 12px 22px;
-    }
-
-
-    .header h1 {
-
-        font-size: 2.7rem;
-    }
-
-
-    .header p {
-
-        letter-spacing: 2.5px;
-    }
-
-
-    .language-btn {
-
-        padding:
-            7px 9px;
+        padding: 8px 10px;
 
         font-size: 0.72rem;
     }
 
-
-    .menu-container {
-
-        padding:
-            20px 10px 40px;
-    }
-
-
-    .menu-section {
-
-        padding:
-            18px 10px 20px;
-    }
-
-
-    .menu-section h2 {
-
-        font-size: 1.1rem;
-
-        padding:
-            7px 17px;
-    }
-
-
-    .menu-section h2::before,
-    .menu-section h2::after {
-
-        width: 10px;
-    }
-
-
-    .menu-item h3 {
-
-        font-size: 0.96rem;
-    }
-
-
-    .menu-item p {
-
-        font-size: 0.82rem;
-    }
-
-
-    .price {
-
-        font-size: 0.9rem;
-    }
-
-
-    .children-menu {
-
-        padding:
-            18px 12px;
-    }
-
-
-    .supplement-row {
-
-        font-size: 0.82rem;
+    .drink-row {
+        font-size: 0.80rem;
     }
 
 }

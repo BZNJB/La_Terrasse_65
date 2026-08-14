@@ -9,6 +9,12 @@ const translations = {
         restaurant:
             "Restaurant • Bar • Lourdes",
 
+        tab_food:
+            "Carte",
+
+        tab_drinks:
+            "Boissons",
+
         starters:
             "Entrées",
 
@@ -177,6 +183,44 @@ const translations = {
             "Supplément chantilly",
 
 
+        /* ===============================
+           BOISSONS
+        =============================== */
+
+        softs_title:
+            "Softs",
+
+        coca_zero:
+            "Coca-Cola Sans Sucre",
+
+        schweppes_citrus:
+            "Schweppes Agrumes",
+
+        ice_tea_peach:
+            "Lipton Ice Tea Pêche",
+
+        waters_title:
+            "Eaux",
+
+        still_water:
+            "Plates",
+
+        sparkling_water:
+            "Gazeuses",
+
+        perrier_lemon:
+            "Perrier Citron 50 cl",
+
+        perrier_lime:
+            "Perrier Citron Vert 50 cl",
+
+        bottled_beers:
+            "Bières bouteille",
+
+        draft_beers:
+            "Bières pression",
+
+
         footer_restaurant:
             "La Terrasse • Lourdes",
 
@@ -193,6 +237,12 @@ const translations = {
 
         restaurant:
             "Restaurant • Bar • Lourdes",
+
+        tab_food:
+            "Food",
+
+        tab_drinks:
+            "Drinks",
 
         starters:
             "Starters",
@@ -362,6 +412,44 @@ const translations = {
             "Extra whipped cream",
 
 
+        /* ===============================
+           DRINKS
+        =============================== */
+
+        softs_title:
+            "Soft Drinks",
+
+        coca_zero:
+            "Coca-Cola Zero Sugar",
+
+        schweppes_citrus:
+            "Schweppes Citrus",
+
+        ice_tea_peach:
+            "Lipton Peach Ice Tea",
+
+        waters_title:
+            "Water",
+
+        still_water:
+            "Still Water",
+
+        sparkling_water:
+            "Sparkling Water",
+
+        perrier_lemon:
+            "Perrier Lemon 50 cl",
+
+        perrier_lime:
+            "Perrier Lime 50 cl",
+
+        bottled_beers:
+            "Bottled Beers",
+
+        draft_beers:
+            "Draft Beers",
+
+
         footer_restaurant:
             "La Terrasse • Lourdes",
 
@@ -379,6 +467,12 @@ const translations = {
         restaurant:
             "Restaurante • Bar • Lourdes",
 
+        tab_food:
+            "Carta",
+
+        tab_drinks:
+            "Bebidas",
+
         starters:
             "Entrantes",
 
@@ -386,7 +480,7 @@ const translations = {
             "Ensalada de mollejas de pato",
 
         gizzard_description:
-            "Ensalada verde, mollejas de pato, picatostes, tomate cherry, cebolla, nueces y vinagreta de mostaza a la antigua.",
+            "Ensalada verde, mollejas de pato, picatostes, tomate cherry, cebolla roja, nueces y vinagreta de mostaza a la antigua.",
 
         salmon_bagel_name:
             "Bagel de salmón ahumado",
@@ -398,7 +492,7 @@ const translations = {
             "Ensalada César",
 
         caesar_starter_description:
-            "Ensalada, tomate cherry, pollo empanado, picatostes, cebolla, virutas de parmesano y salsa César.",
+            "Ensalada, tomate cherry, pollo empanado, picatostes, cebolla crujiente, virutas de parmesano y salsa César.",
 
 
         charcuterie:
@@ -433,7 +527,7 @@ const translations = {
             "Ensalada César",
 
         caesar_main_description:
-            "Ensalada, tomate cherry, pollo empanado, cebolla, picatostes y virutas de parmesano.",
+            "Ensalada, tomate cherry, pollo empanado, cebolla crujiente, picatostes y virutas de parmesano.",
 
         burger_name:
             "Hamburguesa del Chef",
@@ -448,7 +542,7 @@ const translations = {
             "Salsa tártara.",
 
         butcher_name:
-            "Corte del carnicero",
+            "Pieza del carnicero",
 
         butcher_description:
             "Según disponibilidad.",
@@ -547,6 +641,44 @@ const translations = {
             "Suplemento de nata montada",
 
 
+        /* ===============================
+           BEBIDAS
+        =============================== */
+
+        softs_title:
+            "Refrescos",
+
+        coca_zero:
+            "Coca-Cola Sin Azúcar",
+
+        schweppes_citrus:
+            "Schweppes Cítricos",
+
+        ice_tea_peach:
+            "Lipton Ice Tea Melocotón",
+
+        waters_title:
+            "Aguas",
+
+        still_water:
+            "Agua sin gas",
+
+        sparkling_water:
+            "Agua con gas",
+
+        perrier_lemon:
+            "Perrier Limón 50 cl",
+
+        perrier_lime:
+            "Perrier Lima 50 cl",
+
+        bottled_beers:
+            "Cervezas de botella",
+
+        draft_beers:
+            "Cervezas de barril",
+
+
         footer_restaurant:
             "La Terrasse • Lourdes",
 
@@ -563,6 +695,12 @@ const translations = {
 
         restaurant:
             "Ristorante • Bar • Lourdes",
+
+        tab_food:
+            "Menu",
+
+        tab_drinks:
+            "Bevande",
 
         starters:
             "Antipasti",
@@ -732,6 +870,44 @@ const translations = {
             "Supplemento panna montata",
 
 
+        /* ===============================
+           BEVANDE
+        =============================== */
+
+        softs_title:
+            "Bibite",
+
+        coca_zero:
+            "Coca-Cola Senza Zucchero",
+
+        schweppes_citrus:
+            "Schweppes Agrumi",
+
+        ice_tea_peach:
+            "Lipton Ice Tea alla Pesca",
+
+        waters_title:
+            "Acque",
+
+        still_water:
+            "Acqua naturale",
+
+        sparkling_water:
+            "Acqua frizzante",
+
+        perrier_lemon:
+            "Perrier Limone 50 cl",
+
+        perrier_lime:
+            "Perrier Lime 50 cl",
+
+        bottled_beers:
+            "Birre in bottiglia",
+
+        draft_beers:
+            "Birre alla spina",
+
+
         footer_restaurant:
             "La Terrasse • Lourdes",
 
@@ -743,7 +919,7 @@ const translations = {
 
 
 /* =========================================================
-   BOUTONS DES LANGUES
+   LANGUES
 ========================================================= */
 
 const languageButtons =
@@ -764,10 +940,6 @@ languageButtons.forEach(button => {
 });
 
 
-/* =========================================================
-   CHANGEMENT DE LANGUE
-========================================================= */
-
 function changeLanguage(language) {
 
     const selectedTranslations =
@@ -778,11 +950,6 @@ function changeLanguage(language) {
         return;
     }
 
-
-    /*
-     * Recherche tous les éléments du HTML
-     * possédant un attribut data-i18n.
-     */
 
     const elements =
         document.querySelectorAll("[data-i18n]");
@@ -806,12 +973,6 @@ function changeLanguage(language) {
 
         } else {
 
-            /*
-             * Utile pendant le développement :
-             * permet de voir dans la console
-             * si une traduction manque.
-             */
-
             console.warn(
                 `Traduction manquante : ${key} (${language})`
             );
@@ -821,17 +982,9 @@ function changeLanguage(language) {
     });
 
 
-    /*
-     * Change la langue déclarée du document.
-     */
-
     document.documentElement.lang =
         language;
 
-
-    /*
-     * Change visuellement le bouton actif.
-     */
 
     languageButtons.forEach(button => {
 
@@ -843,10 +996,6 @@ function changeLanguage(language) {
     });
 
 
-    /*
-     * Mémorise le choix du client.
-     */
-
     localStorage.setItem(
         "preferredLanguage",
         language
@@ -856,8 +1005,85 @@ function changeLanguage(language) {
 
 
 /* =========================================================
-   LANGUE AU CHARGEMENT
+   ONGLETS CARTE / BOISSONS
 ========================================================= */
+
+const menuTabs =
+    document.querySelectorAll(".menu-tab");
+
+
+const tabContents =
+    document.querySelectorAll(".tab-content");
+
+
+function changeTab(tabName) {
+
+    menuTabs.forEach(tab => {
+
+        tab.classList.toggle(
+            "active",
+            tab.dataset.tab === tabName
+        );
+
+    });
+
+
+    tabContents.forEach(content => {
+
+        content.classList.toggle(
+            "active",
+            content.id === `${tabName}-content`
+        );
+
+    });
+
+
+    localStorage.setItem(
+        "preferredTab",
+        tabName
+    );
+
+}
+
+
+menuTabs.forEach(tab => {
+
+    tab.addEventListener("click", () => {
+
+        const selectedTab =
+            tab.dataset.tab;
+
+        changeTab(selectedTab);
+
+        /*
+         * On remonte au début du menu.
+         * Pratique surtout sur smartphone.
+         */
+
+        const tabs =
+            document.querySelector(".menu-tabs");
+
+        if (tabs) {
+
+            tabs.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
+
+    });
+
+});
+
+
+/* =========================================================
+   INITIALISATION
+========================================================= */
+
+/*
+ * Langue mémorisée
+ */
 
 const savedLanguage =
     localStorage.getItem("preferredLanguage");
@@ -873,5 +1099,27 @@ if (
 } else {
 
     changeLanguage("fr");
+
+}
+
+
+/*
+ * Onglet mémorisé
+ */
+
+const savedTab =
+    localStorage.getItem("preferredTab");
+
+
+if (
+    savedTab === "food" ||
+    savedTab === "drinks"
+) {
+
+    changeTab(savedTab);
+
+} else {
+
+    changeTab("food");
 
 }
