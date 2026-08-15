@@ -1397,3 +1397,97 @@ body {
     }
 
 }
+/* =========================================================
+   RÉSEAUX SOCIAUX - FOOTER
+========================================================= */
+
+.footer-socials {
+    margin-top: 22px;
+}
+
+
+.social-title {
+    color: var(--cream-soft);
+
+    font-family:
+        "Trebuchet MS",
+        Arial,
+        sans-serif !important;
+
+    font-size: 0.75rem !important;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 12px !important;
+}
+
+
+.social-links {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 14px;
+}
+
+
+.social-link {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 42px;
+    height: 42px;
+
+    border:
+        1px solid rgba(201, 148, 40, 0.55);
+
+    background:
+        rgba(201, 148, 40, 0.04);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        background 0.2s ease;
+}
+
+
+.social-link img {
+    width: 21px;
+    height: 21px;
+
+    object-fit: contain;
+}
+
+
+.social-link:hover {
+    transform: translateY(-2px);
+
+    border-color:
+        var(--gold-light);
+
+    background:
+        rgba(201, 148, 40, 0.12);
+}
+
+
+/* Smartphone */
+
+@media (max-width: 480px) {
+
+    .social-link {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .social-link img {
+        width: 20px;
+        height: 20px;
+    }
+
+}
