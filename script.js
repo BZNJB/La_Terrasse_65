@@ -6,52 +6,35 @@ const translations = {
 
     fr: {
 
-        restaurant:
-            "Restaurant • Bar • Lourdes",
+        restaurant: "Restaurant • Bar • Lourdes",
 
-        tab_food:
-            "Carte",
+        tab_food: "Carte",
+        tab_drinks: "Boissons",
 
-        tab_drinks:
-            "Boissons",
+        starters: "Entrées",
 
-        starters:
-            "Entrées",
-
-        gizzard_name:
-            "Salade de gésiers",
-
+        gizzard_name: "Salade de gésiers",
         gizzard_description:
             "Salade verte, gésiers de canard, croûtons, tomate cerise, oignon rouge, noix, vinaigrette à la moutarde à l'ancienne.",
 
-        salmon_bagel_name:
-            "Bagel de saumon fumé",
-
+        salmon_bagel_name: "Bagel de saumon fumé",
         salmon_bagel_description:
             "Pain en forme de bagel, saumon fumé, salade, tomate, fromage frais aux fines herbes, concombre.",
 
-        caesar_starter_name:
-            "Salade César",
-
+        caesar_starter_name: "Salade César",
         caesar_starter_description:
             "Salade, tomate cerise, poulet pané, croûtons, oignon crispy, copeaux de parmesan, sauce César.",
 
 
-        charcuterie:
-            "Planche de charcuterie",
-
-        charcuterie_name:
-            "Planche à partager",
-
+        charcuterie: "Planche de charcuterie",
+        charcuterie_name: "Planche à partager",
         charcuterie_description:
             "Jambon de Bayonne, rosette, coppa, pâté de campagne, cornichons, chorizo, fromage et pain tranché.",
 
 
-        main_courses:
-            "Plats",
+        main_courses: "Plats",
 
-        duck_confit_name:
-            "Confit de canard",
+        duck_confit_name: "Confit de canard",
 
         whole_duck_breast_name:
             "Magret de canard entier",
@@ -59,9 +42,7 @@ const translations = {
         half_duck_breast_name:
             "Demi magret de canard",
 
-        salmon_name:
-            "Pavé de saumon",
-
+        salmon_name: "Pavé de saumon",
         salmon_description:
             "Sauce échalote citronnée.",
 
@@ -103,9 +84,7 @@ const translations = {
             "Riz",
 
 
-        /* ===============================
-           MENU ENFANT
-        =============================== */
+        /* MENU ENFANT */
 
         children_menu_title:
             "Menu Enfant",
@@ -138,9 +117,7 @@ const translations = {
             "Parfum au choix",
 
 
-        /* ===============================
-           SUPPLÉMENTS
-        =============================== */
+        /* SUPPLÉMENTS */
 
         supplements_title:
             "Suppléments",
@@ -158,9 +135,7 @@ const translations = {
             "Tagliatelles",
 
 
-        /* ===============================
-           DESSERTS
-        =============================== */
+        /* DESSERTS */
 
         desserts:
             "Desserts",
@@ -172,9 +147,7 @@ const translations = {
             "En fonction de l'arrivage.",
 
 
-        /* ===============================
-           GLACES
-        =============================== */
+        /* GLACES */
 
         ice_creams:
             "Glaces",
@@ -195,9 +168,7 @@ const translations = {
             "Supplément chantilly",
 
 
-        /* ===============================
-           BOISSONS
-        =============================== */
+        /* BOISSONS */
 
         softs_title:
             "Softs",
@@ -210,6 +181,28 @@ const translations = {
 
         ice_tea_peach:
             "Lipton Ice Tea Pêche",
+
+
+        /* JUS SOLÉIA */
+
+        juices_title:
+            "Jus Soléia",
+
+        soleia_orange:
+            "Nectar d'orange",
+
+        soleia_grapefruit:
+            "Jus de Pamplemousse",
+
+        soleia_apple:
+            "Jus de Pomme",
+
+        soleia_pineapple:
+            "Jus d'Ananas",
+
+        soleia_apricot:
+            "Jus d'Abricot",
+
 
         waters_title:
             "Eaux",
@@ -227,9 +220,7 @@ const translations = {
             "Perrier Citron Vert 50 cl",
 
 
-        /* ===============================
-           OGEU DES PYRÉNÉES
-        =============================== */
+        /* OGEU */
 
         ogeu_title:
             "Ogeu des Pyrénées",
@@ -271,10 +262,6 @@ const translations = {
         draft_beers:
             "Bières pression",
 
-
-        /* ===============================
-           FOOTER
-        =============================== */
 
         follow_us:
             "Suivez-nous",
@@ -390,9 +377,7 @@ const translations = {
             "Rice",
 
 
-        /* ===============================
-           KIDS' MENU
-        =============================== */
+        /* KIDS' MENU */
 
         children_menu_title:
             "Kids' Menu",
@@ -425,9 +410,7 @@ const translations = {
             "Flavour of your choice",
 
 
-        /* ===============================
-           EXTRAS
-        =============================== */
+        /* EXTRAS */
 
         supplements_title:
             "Extras",
@@ -445,10 +428,6 @@ const translations = {
             "Tagliatelle",
 
 
-        /* ===============================
-           DESSERTS
-        =============================== */
-
         desserts:
             "Desserts",
 
@@ -458,10 +437,6 @@ const translations = {
         dessert_description:
             "Subject to availability.",
 
-
-        /* ===============================
-           ICE CREAM
-        =============================== */
 
         ice_creams:
             "Ice Cream",
@@ -482,9 +457,7 @@ const translations = {
             "Extra whipped cream",
 
 
-        /* ===============================
-           DRINKS
-        =============================== */
+        /* DRINKS */
 
         softs_title:
             "Soft Drinks",
@@ -497,6 +470,28 @@ const translations = {
 
         ice_tea_peach:
             "Lipton Peach Ice Tea",
+
+
+        /* SOLÉIA JUICES */
+
+        juices_title:
+            "Soléia Juices",
+
+        soleia_orange:
+            "Orange Nectar",
+
+        soleia_grapefruit:
+            "Grapefruit Juice",
+
+        soleia_apple:
+            "Apple Juice",
+
+        soleia_pineapple:
+            "Pineapple Juice",
+
+        soleia_apricot:
+            "Apricot Juice",
+
 
         waters_title:
             "Water",
@@ -514,9 +509,7 @@ const translations = {
             "Perrier Lime 50 cl",
 
 
-        /* ===============================
-           OGEU FROM THE PYRENEES
-        =============================== */
+        /* OGEU */
 
         ogeu_title:
             "Ogeu from the Pyrenees",
@@ -558,10 +551,6 @@ const translations = {
         draft_beers:
             "Draft Beers",
 
-
-        /* ===============================
-           FOOTER
-        =============================== */
 
         follow_us:
             "Follow us",
@@ -677,9 +666,7 @@ const translations = {
             "Arroz",
 
 
-        /* ===============================
-           MENÚ INFANTIL
-        =============================== */
+        /* MENÚ INFANTIL */
 
         children_menu_title:
             "Menú Infantil",
@@ -712,10 +699,6 @@ const translations = {
             "Sabor a elegir",
 
 
-        /* ===============================
-           SUPLEMENTOS
-        =============================== */
-
         supplements_title:
             "Suplementos",
 
@@ -732,10 +715,6 @@ const translations = {
             "Tagliatelle",
 
 
-        /* ===============================
-           POSTRES
-        =============================== */
-
         desserts:
             "Postres",
 
@@ -745,10 +724,6 @@ const translations = {
         dessert_description:
             "Según disponibilidad.",
 
-
-        /* ===============================
-           HELADOS
-        =============================== */
 
         ice_creams:
             "Helados",
@@ -769,9 +744,7 @@ const translations = {
             "Suplemento de nata montada",
 
 
-        /* ===============================
-           BEBIDAS
-        =============================== */
+        /* BEBIDAS */
 
         softs_title:
             "Refrescos",
@@ -784,6 +757,28 @@ const translations = {
 
         ice_tea_peach:
             "Lipton Ice Tea Melocotón",
+
+
+        /* ZUMOS SOLÉIA */
+
+        juices_title:
+            "Zumos Soléia",
+
+        soleia_orange:
+            "Néctar de naranja",
+
+        soleia_grapefruit:
+            "Zumo de pomelo",
+
+        soleia_apple:
+            "Zumo de manzana",
+
+        soleia_pineapple:
+            "Zumo de piña",
+
+        soleia_apricot:
+            "Zumo de albaricoque",
+
 
         waters_title:
             "Aguas",
@@ -801,9 +796,7 @@ const translations = {
             "Perrier Lima 50 cl",
 
 
-        /* ===============================
-           OGEU DE LOS PIRINEOS
-        =============================== */
+        /* OGEU */
 
         ogeu_title:
             "Ogeu de los Pirineos",
@@ -845,10 +838,6 @@ const translations = {
         draft_beers:
             "Cervezas de barril",
 
-
-        /* ===============================
-           FOOTER
-        =============================== */
 
         follow_us:
             "Síguenos",
@@ -964,9 +953,7 @@ const translations = {
             "Riso",
 
 
-        /* ===============================
-           MENU BAMBINI
-        =============================== */
+        /* MENU BAMBINI */
 
         children_menu_title:
             "Menu Bambini",
@@ -999,10 +986,6 @@ const translations = {
             "Gusto a scelta",
 
 
-        /* ===============================
-           SUPPLEMENTI
-        =============================== */
-
         supplements_title:
             "Supplementi",
 
@@ -1019,10 +1002,6 @@ const translations = {
             "Tagliatelle",
 
 
-        /* ===============================
-           DESSERT
-        =============================== */
-
         desserts:
             "Dessert",
 
@@ -1032,10 +1011,6 @@ const translations = {
         dessert_description:
             "Secondo disponibilità.",
 
-
-        /* ===============================
-           GELATI
-        =============================== */
 
         ice_creams:
             "Gelati",
@@ -1056,9 +1031,7 @@ const translations = {
             "Supplemento panna montata",
 
 
-        /* ===============================
-           BEVANDE
-        =============================== */
+        /* BEVANDE */
 
         softs_title:
             "Bibite",
@@ -1071,6 +1044,28 @@ const translations = {
 
         ice_tea_peach:
             "Lipton Ice Tea alla Pesca",
+
+
+        /* SUCCHI SOLÉIA */
+
+        juices_title:
+            "Succhi Soléia",
+
+        soleia_orange:
+            "Nettare d'arancia",
+
+        soleia_grapefruit:
+            "Succo di pompelmo",
+
+        soleia_apple:
+            "Succo di mela",
+
+        soleia_pineapple:
+            "Succo d'ananas",
+
+        soleia_apricot:
+            "Succo di albicocca",
+
 
         waters_title:
             "Acque",
@@ -1088,9 +1083,7 @@ const translations = {
             "Perrier Lime 50 cl",
 
 
-        /* ===============================
-           OGEU DEI PIRENEI
-        =============================== */
+        /* OGEU */
 
         ogeu_title:
             "Ogeu dei Pirenei",
@@ -1133,10 +1126,6 @@ const translations = {
             "Birre alla spina",
 
 
-        /* ===============================
-           FOOTER
-        =============================== */
-
         follow_us:
             "Seguici",
 
@@ -1177,41 +1166,37 @@ function changeLanguage(language) {
     const selectedTranslations =
         translations[language];
 
-
     if (!selectedTranslations) {
         return;
     }
 
 
-    const elements =
-        document.querySelectorAll("[data-i18n]");
+    document
+        .querySelectorAll("[data-i18n]")
+        .forEach(element => {
 
+            const key =
+                element.dataset.i18n;
 
-    elements.forEach(element => {
+            if (
+                Object.prototype.hasOwnProperty.call(
+                    selectedTranslations,
+                    key
+                )
+            ) {
 
-        const key =
-            element.dataset.i18n;
+                element.textContent =
+                    selectedTranslations[key];
 
+            } else {
 
-        if (
-            Object.prototype.hasOwnProperty.call(
-                selectedTranslations,
-                key
-            )
-        ) {
+                console.warn(
+                    `Traduction manquante : ${key} (${language})`
+                );
 
-            element.textContent =
-                selectedTranslations[key];
+            }
 
-        } else {
-
-            console.warn(
-                `Traduction manquante : ${key} (${language})`
-            );
-
-        }
-
-    });
+        });
 
 
     document.documentElement.lang =
@@ -1242,7 +1227,6 @@ function changeLanguage(language) {
 
 const menuTabs =
     document.querySelectorAll(".menu-tab");
-
 
 const tabContents =
     document.querySelectorAll(".tab-content");
@@ -1288,11 +1272,6 @@ menuTabs.forEach(tab => {
         changeTab(selectedTab);
 
 
-        /*
-         * Remonte au début du menu.
-         * Pratique surtout sur smartphone.
-         */
-
         const tabs =
             document.querySelector(".menu-tabs");
 
@@ -1315,11 +1294,6 @@ menuTabs.forEach(tab => {
    INITIALISATION
 ========================================================= */
 
-
-/*
- * Langue mémorisée
- */
-
 const savedLanguage =
     localStorage.getItem("preferredLanguage");
 
@@ -1337,10 +1311,6 @@ if (
 
 }
 
-
-/*
- * Onglet mémorisé
- */
 
 const savedTab =
     localStorage.getItem("preferredTab");
