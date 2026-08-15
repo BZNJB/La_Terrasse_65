@@ -138,6 +138,10 @@ const translations = {
             "Parfum au choix",
 
 
+        /* ===============================
+           SUPPLÉMENTS
+        =============================== */
+
         supplements_title:
             "Suppléments",
 
@@ -154,6 +158,10 @@ const translations = {
             "Tagliatelles",
 
 
+        /* ===============================
+           DESSERTS
+        =============================== */
+
         desserts:
             "Desserts",
 
@@ -163,6 +171,10 @@ const translations = {
         dessert_description:
             "En fonction de l'arrivage.",
 
+
+        /* ===============================
+           GLACES
+        =============================== */
 
         ice_creams:
             "Glaces",
@@ -214,12 +226,58 @@ const translations = {
         perrier_lime:
             "Perrier Citron Vert 50 cl",
 
+
+        /* ===============================
+           OGEU DES PYRÉNÉES
+        =============================== */
+
+        ogeu_title:
+            "Ogeu des Pyrénées",
+
+        ogeu_petillante_1l_name:
+            "Ogeu - La Pétillante - Pyrénées 1L",
+
+        ogeu_petillante_1l_description:
+            "Eau minérale naturelle avec adjonction de gaz carbonique.",
+
+        ogeu_petillante_50cl_name:
+            "Ogeu - La Pétillante - Pyrénées 50cl",
+
+        ogeu_petillante_50cl_description:
+            "Eau minérale naturelle avec adjonction de gaz carbonique.",
+
+        ogeu_pyrenees_1l_name:
+            "Ogeu - Pyrénées - 1L",
+
+        ogeu_pyrenees_1l_description:
+            "Eau minérale naturelle.",
+
+        ogeu_pyrenees_50cl_name:
+            "Ogeu - Pyrénées - 50cl",
+
+        ogeu_pyrenees_50cl_description:
+            "Eau minérale naturelle.",
+
+        ogeu_intense_33cl_name:
+            "Ogeu - L'Intense - Pyrénées 33cl",
+
+        ogeu_intense_33cl_description:
+            "Eau minérale naturelle avec adjonction de gaz carbonique.",
+
+
         bottled_beers:
             "Bières bouteille",
 
         draft_beers:
             "Bières pression",
 
+
+        /* ===============================
+           FOOTER
+        =============================== */
+
+        follow_us:
+            "Suivez-nous",
 
         footer_restaurant:
             "La Terrasse • Lourdes",
@@ -367,6 +425,10 @@ const translations = {
             "Flavour of your choice",
 
 
+        /* ===============================
+           EXTRAS
+        =============================== */
+
         supplements_title:
             "Extras",
 
@@ -383,6 +445,10 @@ const translations = {
             "Tagliatelle",
 
 
+        /* ===============================
+           DESSERTS
+        =============================== */
+
         desserts:
             "Desserts",
 
@@ -392,6 +458,10 @@ const translations = {
         dessert_description:
             "Subject to availability.",
 
+
+        /* ===============================
+           ICE CREAM
+        =============================== */
 
         ice_creams:
             "Ice Cream",
@@ -443,12 +513,58 @@ const translations = {
         perrier_lime:
             "Perrier Lime 50 cl",
 
+
+        /* ===============================
+           OGEU FROM THE PYRENEES
+        =============================== */
+
+        ogeu_title:
+            "Ogeu from the Pyrenees",
+
+        ogeu_petillante_1l_name:
+            "Ogeu - La Pétillante - Pyrénées 1L",
+
+        ogeu_petillante_1l_description:
+            "Natural mineral water with added carbon dioxide.",
+
+        ogeu_petillante_50cl_name:
+            "Ogeu - La Pétillante - Pyrénées 50cl",
+
+        ogeu_petillante_50cl_description:
+            "Natural mineral water with added carbon dioxide.",
+
+        ogeu_pyrenees_1l_name:
+            "Ogeu - Pyrénées - 1L",
+
+        ogeu_pyrenees_1l_description:
+            "Natural mineral water.",
+
+        ogeu_pyrenees_50cl_name:
+            "Ogeu - Pyrénées - 50cl",
+
+        ogeu_pyrenees_50cl_description:
+            "Natural mineral water.",
+
+        ogeu_intense_33cl_name:
+            "Ogeu - L'Intense - Pyrénées 33cl",
+
+        ogeu_intense_33cl_description:
+            "Natural mineral water with added carbon dioxide.",
+
+
         bottled_beers:
             "Bottled Beers",
 
         draft_beers:
             "Draft Beers",
 
+
+        /* ===============================
+           FOOTER
+        =============================== */
+
+        follow_us:
+            "Follow us",
 
         footer_restaurant:
             "La Terrasse • Lourdes",
@@ -596,6 +712,10 @@ const translations = {
             "Sabor a elegir",
 
 
+        /* ===============================
+           SUPLEMENTOS
+        =============================== */
+
         supplements_title:
             "Suplementos",
 
@@ -612,6 +732,10 @@ const translations = {
             "Tagliatelle",
 
 
+        /* ===============================
+           POSTRES
+        =============================== */
+
         desserts:
             "Postres",
 
@@ -621,6 +745,10 @@ const translations = {
         dessert_description:
             "Según disponibilidad.",
 
+
+        /* ===============================
+           HELADOS
+        =============================== */
 
         ice_creams:
             "Helados",
@@ -672,12 +800,58 @@ const translations = {
         perrier_lime:
             "Perrier Lima 50 cl",
 
+
+        /* ===============================
+           OGEU DE LOS PIRINEOS
+        =============================== */
+
+        ogeu_title:
+            "Ogeu de los Pirineos",
+
+        ogeu_petillante_1l_name:
+            "Ogeu - La Pétillante - Pyrénées 1L",
+
+        ogeu_petillante_1l_description:
+            "Agua mineral natural con adición de dióxido de carbono.",
+
+        ogeu_petillante_50cl_name:
+            "Ogeu - La Pétillante - Pyrénées 50cl",
+
+        ogeu_petillante_50cl_description:
+            "Agua mineral natural con adición de dióxido de carbono.",
+
+        ogeu_pyrenees_1l_name:
+            "Ogeu - Pyrénées - 1L",
+
+        ogeu_pyrenees_1l_description:
+            "Agua mineral natural.",
+
+        ogeu_pyrenees_50cl_name:
+            "Ogeu - Pyrénées - 50cl",
+
+        ogeu_pyrenees_50cl_description:
+            "Agua mineral natural.",
+
+        ogeu_intense_33cl_name:
+            "Ogeu - L'Intense - Pyrénées 33cl",
+
+        ogeu_intense_33cl_description:
+            "Agua mineral natural con adición de dióxido de carbono.",
+
+
         bottled_beers:
             "Cervezas de botella",
 
         draft_beers:
             "Cervezas de barril",
 
+
+        /* ===============================
+           FOOTER
+        =============================== */
+
+        follow_us:
+            "Síguenos",
 
         footer_restaurant:
             "La Terrasse • Lourdes",
@@ -825,6 +999,10 @@ const translations = {
             "Gusto a scelta",
 
 
+        /* ===============================
+           SUPPLEMENTI
+        =============================== */
+
         supplements_title:
             "Supplementi",
 
@@ -841,6 +1019,10 @@ const translations = {
             "Tagliatelle",
 
 
+        /* ===============================
+           DESSERT
+        =============================== */
+
         desserts:
             "Dessert",
 
@@ -850,6 +1032,10 @@ const translations = {
         dessert_description:
             "Secondo disponibilità.",
 
+
+        /* ===============================
+           GELATI
+        =============================== */
 
         ice_creams:
             "Gelati",
@@ -901,12 +1087,58 @@ const translations = {
         perrier_lime:
             "Perrier Lime 50 cl",
 
+
+        /* ===============================
+           OGEU DEI PIRENEI
+        =============================== */
+
+        ogeu_title:
+            "Ogeu dei Pirenei",
+
+        ogeu_petillante_1l_name:
+            "Ogeu - La Pétillante - Pyrénées 1L",
+
+        ogeu_petillante_1l_description:
+            "Acqua minerale naturale con aggiunta di anidride carbonica.",
+
+        ogeu_petillante_50cl_name:
+            "Ogeu - La Pétillante - Pyrénées 50cl",
+
+        ogeu_petillante_50cl_description:
+            "Acqua minerale naturale con aggiunta di anidride carbonica.",
+
+        ogeu_pyrenees_1l_name:
+            "Ogeu - Pyrénées - 1L",
+
+        ogeu_pyrenees_1l_description:
+            "Acqua minerale naturale.",
+
+        ogeu_pyrenees_50cl_name:
+            "Ogeu - Pyrénées - 50cl",
+
+        ogeu_pyrenees_50cl_description:
+            "Acqua minerale naturale.",
+
+        ogeu_intense_33cl_name:
+            "Ogeu - L'Intense - Pyrénées 33cl",
+
+        ogeu_intense_33cl_description:
+            "Acqua minerale naturale con aggiunta di anidride carbonica.",
+
+
         bottled_beers:
             "Birre in bottiglia",
 
         draft_beers:
             "Birre alla spina",
 
+
+        /* ===============================
+           FOOTER
+        =============================== */
+
+        follow_us:
+            "Seguici",
 
         footer_restaurant:
             "La Terrasse • Lourdes",
@@ -1055,13 +1287,15 @@ menuTabs.forEach(tab => {
 
         changeTab(selectedTab);
 
+
         /*
-         * On remonte au début du menu.
+         * Remonte au début du menu.
          * Pratique surtout sur smartphone.
          */
 
         const tabs =
             document.querySelector(".menu-tabs");
+
 
         if (tabs) {
 
@@ -1080,6 +1314,7 @@ menuTabs.forEach(tab => {
 /* =========================================================
    INITIALISATION
 ========================================================= */
+
 
 /*
  * Langue mémorisée
