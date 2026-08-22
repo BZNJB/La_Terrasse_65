@@ -15,6 +15,27 @@ const translations = {
         tab_drinks:
             "Boissons",
 
+        tab_wines:
+            "Carte des vins",
+
+        wine_glass:
+            "Verre",
+
+        wine_bottle:
+            "Bouteille",
+
+        red_wines:
+            "Vins rouges",
+
+        rose_wines:
+            "Vins rosés",
+
+        white_wines:
+            "Vins blancs",
+
+        sparkling_wines:
+            "Bulles",
+
         starters:
             "Entrées",
 
@@ -334,6 +355,27 @@ const translations = {
         tab_drinks:
             "Drinks",
 
+        tab_wines:
+            "Wine List",
+
+        wine_glass:
+            "Glass",
+
+        wine_bottle:
+            "Bottle",
+
+        red_wines:
+            "Red Wines",
+
+        rose_wines:
+            "Rosé Wines",
+
+        white_wines:
+            "White Wines",
+
+        sparkling_wines:
+            "Sparkling Wines",
+
         starters:
             "Starters",
 
@@ -627,6 +669,27 @@ const translations = {
         tab_drinks:
             "Bebidas",
 
+        tab_wines:
+            "Carta de vinos",
+
+        wine_glass:
+            "Copa",
+
+        wine_bottle:
+            "Botella",
+
+        red_wines:
+            "Vinos tintos",
+
+        rose_wines:
+            "Vinos rosados",
+
+        white_wines:
+            "Vinos blancos",
+
+        sparkling_wines:
+            "Espumosos",
+
         starters:
             "Entrantes",
 
@@ -919,6 +982,27 @@ const translations = {
 
         tab_drinks:
             "Bevande",
+
+        tab_wines:
+            "Carta dei vini",
+
+        wine_glass:
+            "Calice",
+
+        wine_bottle:
+            "Bottiglia",
+
+        red_wines:
+            "Vini rossi",
+
+        rose_wines:
+            "Vini rosati",
+
+        white_wines:
+            "Vini bianchi",
+
+        sparkling_wines:
+            "Bollicine",
 
         starters:
             "Antipasti",
@@ -1384,7 +1468,8 @@ const savedTab =
 
 if (
     savedTab === "food" ||
-    savedTab === "drinks"
+    savedTab === "drinks" ||
+    savedTab === "wines"
 ) {
 
     changeTab(savedTab);

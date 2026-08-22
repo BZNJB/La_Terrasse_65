@@ -11,7 +11,7 @@
 
     <title>La Terrasse - Menu</title>
 
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=5">
 </head>
 
 <body>
@@ -97,6 +97,16 @@
             >
                 <span data-i18n="tab_drinks">
                     Boissons
+                </span>
+            </button>
+
+            <button
+                class="menu-tab"
+                data-tab="wines"
+                type="button"
+            >
+                <span data-i18n="tab_wines">
+                    Carte des vins
                 </span>
             </button>
 
@@ -1348,6 +1358,128 @@
 
         </div>
 
+
+        <!-- ======================================
+             ONGLET CARTE DES VINS
+        ======================================= -->
+
+        <div
+            id="wines-content"
+            class="tab-content"
+        >
+
+            <div class="wine-price-header" aria-hidden="true">
+                <span></span>
+                <span data-i18n="wine_glass">Verre</span>
+                <span data-i18n="wine_bottle">Bouteille</span>
+            </div>
+
+            <section class="menu-section wine-section">
+
+                <h2 data-i18n="red_wines">
+                    Vins rouges
+                </h2>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Les Gouyats</h3>
+                        <p>IGP du Périgord</p>
+                    </div>
+                    <span class="wine-price">4,00 €</span>
+                    <span class="wine-price">18,00 €</span>
+                </article>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Harmonie rouge, Domaine de Pellehaut</h3>
+                        <p>IGP Côtes de Gascogne</p>
+                    </div>
+                    <span class="wine-price wine-price-unavailable">—</span>
+                    <span class="wine-price">19,00 €</span>
+                </article>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Madiran, Château Viella</h3>
+                        <p>AOC Madiran</p>
+                    </div>
+                    <span class="wine-price wine-price-unavailable">—</span>
+                    <span class="wine-price">20,00 €</span>
+                </article>
+
+            </section>
+
+            <section class="menu-section wine-section">
+
+                <h2 data-i18n="rose_wines">
+                    Vins rosés
+                </h2>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Harmonie rosé, Domaine de Pellehaut</h3>
+                        <p>IGP Côtes de Gascogne</p>
+                    </div>
+                    <span class="wine-price wine-price-unavailable">—</span>
+                    <span class="wine-price">18,00 €</span>
+                </article>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Été gascon doux, Domaine de Pellehaut</h3>
+                        <p>IGP Côtes de Gascogne</p>
+                    </div>
+                    <span class="wine-price">4,50 €</span>
+                    <span class="wine-price">22,00 €</span>
+                </article>
+
+            </section>
+
+            <section class="menu-section wine-section">
+
+                <h2 data-i18n="white_wines">
+                    Vins blancs
+                </h2>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Jurançon sec, La Cuvée du Pèlerin</h3>
+                        <p>AOC Jurançon</p>
+                    </div>
+                    <span class="wine-price">3,50 €</span>
+                    <span class="wine-price">18,00 €</span>
+                </article>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Jurançon doux, La Cuvée du Pèlerin</h3>
+                        <p>AOC Jurançon</p>
+                    </div>
+                    <span class="wine-price">4,50 €</span>
+                    <span class="wine-price">20,00 €</span>
+                </article>
+
+            </section>
+
+            <section class="menu-section wine-section">
+
+                <h2 data-i18n="sparkling_wines">
+                    Bulles
+                </h2>
+
+                <article class="wine-row">
+                    <div class="wine-details">
+                        <h3>Pilaho Blanc de Blanc</h3>
+                        <p>Domaine de Pellehaut</p>
+                    </div>
+                    <span class="wine-price wine-price-unavailable">—</span>
+                    <span class="wine-price">24,00 €</span>
+                </article>
+
+            </section>
+
+        </div>
+
     </main>
 
 
@@ -1416,7 +1548,7 @@
     </footer>
 
 
-    <script src="script.js?v=7"></script>
+    <script src="script.js?v=8"></script>
 
 </body>
 

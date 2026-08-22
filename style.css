@@ -1491,3 +1491,121 @@ body {
     }
 
 }
+
+
+/* =========================================================
+   CARTE DES VINS
+========================================================= */
+
+.wine-price-header,
+.wine-row {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr) 74px 82px;
+
+    column-gap: 10px;
+
+    align-items: center;
+}
+
+
+.wine-price-header {
+    margin:
+        0 12px;
+
+    padding:
+        0 3px 8px;
+
+    color:
+        var(--gold-light);
+
+    font-size: 0.72rem;
+
+    font-weight: bold;
+
+    letter-spacing: 0.8px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+
+.wine-section {
+    margin-bottom: 30px;
+}
+
+
+.wine-row {
+    padding:
+        12px 3px;
+
+    border-bottom:
+        1px dotted rgba(201, 148, 40, 0.45);
+}
+
+
+.wine-row:last-child {
+    border-bottom: none;
+}
+
+
+.wine-details h3 {
+    color:
+        var(--cream);
+
+    font-family:
+        Georgia,
+        serif;
+
+    font-size: 0.98rem;
+
+    font-weight: normal;
+}
+
+
+.wine-details p {
+    margin-top: 4px;
+
+    color:
+        var(--gold-light);
+
+    font-size: 0.78rem;
+
+    font-style: italic;
+}
+
+
+.wine-price {
+    color:
+        var(--gold-light);
+
+    font-family:
+        Georgia,
+        serif;
+
+    font-size: 0.88rem;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    white-space: nowrap;
+}
+
+
+.wine-price-unavailable {
+    color:
+        var(--cream-soft);
+}
+
+
+@media (min-width: 600px) {
+
+    .wine-price-header {
+        margin:
+            0 22px;
+    }
+
+}
