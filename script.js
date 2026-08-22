@@ -301,6 +301,9 @@ const translations = {
         bottled_beers:
             "Bières bouteille",
 
+        non_alcoholic_beers:
+            "Bière sans alcool",
+
         draft_beers:
             "Bières pression",
 
@@ -590,6 +593,9 @@ const translations = {
 
         bottled_beers:
             "Bottled Beers",
+
+        non_alcoholic_beers:
+            "Non-Alcoholic Beer",
 
         draft_beers:
             "Draft Beers",
@@ -881,6 +887,9 @@ const translations = {
         bottled_beers:
             "Cervezas de botella",
 
+        non_alcoholic_beers:
+            "Cerveza sin alcohol",
+
         draft_beers:
             "Cervezas de barril",
 
@@ -1170,6 +1179,9 @@ const translations = {
 
         bottled_beers:
             "Birre in bottiglia",
+
+        non_alcoholic_beers:
+            "Birra analcolica",
 
         draft_beers:
             "Birre alla spina",
